@@ -24,6 +24,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/htc/t6-common/proprietary/bin/radish:system/bin/radish \
     vendor/htc/t6-common/proprietary/bin/thermald:system/bin/thermald \
+	vendor/htc/t6-common/proprietary/bin/vcsFPService:system/bin/vcsFPService \
+	vendor/htc/t6-common/proprietary/bin/vcsFirmwareVersion:system/bin/vcsFirmwareVersion \
+	vendor/htc/t6-common/proprietary/bin/vcsSimpleCapture:system/bin/vcsSimpleCapture \
+	vendor/htc/t6-common/proprietary/bin/vcsSimpleEnrollMatch:system/bin/vcsSimpleEnrollMatch \
     vendor/htc/t6-common/proprietary/etc/agps_rm:system/etc/agps_rm \
     vendor/htc/t6-common/proprietary/etc/cir.img:system/etc/cir.img \
     vendor/htc/t6-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
@@ -188,6 +192,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/t6-common/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
     vendor/htc/t6-common/proprietary/lib/libwriteback.so:system/lib/libwriteback.so \
+	vendor/htc/t6-common/proprietary/lib/libvcsCfgData.so:system/lib/libvcsCfgData.so \
+	vendor/htc/t6-common/proprietary/lib/libvcsFPClient.so:system/lib/libvcsFPClient.so \
+	vendor/htc/t6-common/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
     vendor/htc/t6-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/htc/t6-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/htc/t6-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
@@ -218,4 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/htc/t6-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/htc/t6-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/htc/t6-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+	vendor/htc/t6-common/proprietary/vendor/lib/libfpsvc.so:system/vendor/lib/libfpsvc.so \
     vendor/htc/t6-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
