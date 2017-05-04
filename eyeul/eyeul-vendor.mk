@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -559,11 +559,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/etc/firmware/hcheck.b02:/system/etc/firmware/hcheck.b02 \
         vendor/htc/eyeul/proprietary/etc/firmware/hcheck.b03:/system/etc/firmware/hcheck.b03 \
         vendor/htc/eyeul/proprietary/etc/firmware/hcheck.mdt:/system/etc/firmware/hcheck.mdt \
-        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster.b00:vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster.b00:vendor/firmware/keymaster/keymaster.b00 \
-        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster.b01:vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster.b01:vendor/firmware/keymaster/keymaster.b01 \
-        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster.b02:vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster.b02:vendor/firmware/keymaster/keymaster.b02 \
-        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster.b03:vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster.b03:vendor/firmware/keymaster/keymaster.b03 \
-        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster.mdt:vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster.mdt:vendor/firmware/keymaster/keymaster.mdt \
+        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster.b00:vendor/firmware/keymaster/keymaster.b00 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster.b01:vendor/firmware/keymaster/keymaster.b01 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster.b02:vendor/firmware/keymaster/keymaster.b02 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster.b03:vendor/firmware/keymaster/keymaster.b03 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster.mdt:vendor/firmware/keymaster/keymaster.mdt \
         vendor/htc/eyeul/proprietary/vendor/lib/libDivxDrm.so:/system/vendor/lib/libDivxDrm.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libI420colorconvert.so:/system/vendor/lib/libI420colorconvert.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libmm-color-convertor.so:/system/vendor/lib/libmm-color-convertor.so \
