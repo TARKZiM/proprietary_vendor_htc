@@ -196,7 +196,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/libtuning_awb_s5k5e.so:/system/libtuning_awb_s5k5e.so \
         vendor/htc/eyeul/proprietary/libtuning_awb_s5k5e_fov65.so:/system/libtuning_awb_s5k5e_fov65.so \
         vendor/htc/eyeul/proprietary/libtuning_awb_vd6869.so:/system/libtuning_awb_vd6869.so \
-        vendor/htc/eyeul/proprietary/lib/hw/camera.vendor.msm8974.so|19740b60ea36ac6c3573c9a431b9f223b71a59cb:/system/lib/hw/camera.vendor.msm8974.so|19740b60ea36ac6c3573c9a431b9f223b71a59cb \
+        vendor/htc/eyeul/proprietary/lib/hw/camera.vendor.msm8974.so:/system/lib/hw/camera.vendor.msm8974.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libjpegdhw.so:/system/vendor/lib/libjpegdhw.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libjpegehw.so:/system/vendor/lib/libjpegehw.so \
         vendor/htc/eyeul/proprietary/libmmcamera2_c2d_module.so:/system/libmmcamera2_c2d_module.so \
@@ -527,25 +527,25 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/etc/firmware/dxhdcp2.b02:/system/etc/firmware/dxhdcp2.b02 \
         vendor/htc/eyeul/proprietary/etc/firmware/dxhdcp2.b03:/system/etc/firmware/dxhdcp2.b03 \
         vendor/htc/eyeul/proprietary/etc/firmware/dxhdcp2.mdt:/system/etc/firmware/dxhdcp2.mdt \
-        vendor/htc/eyeul/proprietary/vendor/lib/egl/eglsubAndroid.so|cefa669b1d8e0b05afb46d435e7c9f65bfabea02:/system/vendor/lib/egl/eglsubAndroid.so|cefa669b1d8e0b05afb46d435e7c9f65bfabea02 \
-        vendor/htc/eyeul/proprietary/vendor/lib/egl/libEGL_adreno.so|c409c4d27935de4597c8d31d5a43fff09c550531:/system/vendor/lib/egl/libEGL_adreno.so|c409c4d27935de4597c8d31d5a43fff09c550531 \
-        vendor/htc/eyeul/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so|5fd26236efa861bdb6d756472b6659de97fbcfb6:/system/vendor/lib/egl/libGLESv1_CM_adreno.so|5fd26236efa861bdb6d756472b6659de97fbcfb6 \
-        vendor/htc/eyeul/proprietary/vendor/lib/egl/libGLESv2_adreno.so|7d01651611e3478803ee3fd471f96a5bbd4cdaae:/system/vendor/lib/egl/libGLESv2_adreno.so|7d01651611e3478803ee3fd471f96a5bbd4cdaae \
-        vendor/htc/eyeul/proprietary/vendor/lib/egl/libq3dtools_adreno.so|93e4959a96ab75642aeafade2bfbdfa84bf22b09:/system/vendor/lib/egl/libq3dtools_adreno.so|93e4959a96ab75642aeafade2bfbdfa84bf22b09 \
-        vendor/htc/eyeul/proprietary/vendor/lib/libadreno_utils.so|35cfc92e07de8ac1c889fac32dc592a9974259dc:/system/vendor/lib/libadreno_utils.so|35cfc92e07de8ac1c889fac32dc592a9974259dc \
-        vendor/htc/eyeul/proprietary/vendor/lib/libbccQTI.so|e2c5ba0d6d6e0040ddf3a8981a8b9a521f9d1524:/system/vendor/lib/libbccQTI.so|e2c5ba0d6d6e0040ddf3a8981a8b9a521f9d1524 \
-        vendor/htc/eyeul/proprietary/vendor/lib/libC2D2.so|4bcc9bcb6acfde2b015249e3139b1aa78c6dfd12:/system/vendor/lib/libC2D2.so|4bcc9bcb6acfde2b015249e3139b1aa78c6dfd12 \
-        vendor/htc/eyeul/proprietary/vendor/lib/libCB.so|c3315c47c7c1d89e1dfc3b8ebe688edcfecd67f1:/system/vendor/lib/libCB.so|c3315c47c7c1d89e1dfc3b8ebe688edcfecd67f1 \
-        vendor/htc/eyeul/proprietary/vendor/lib/libc2d30-a3xx.so|45529c0a6d38a51234486810d57a43684f8adff1:/system/vendor/lib/libc2d30-a3xx.so|45529c0a6d38a51234486810d57a43684f8adff1 \
-        vendor/htc/eyeul/proprietary/vendor/lib/libgsl.so|69ac0036c7e66431dbb4fb07dc5120f721c2458c:/system/vendor/lib/libgsl.so|69ac0036c7e66431dbb4fb07dc5120f721c2458c \
-        vendor/htc/eyeul/proprietary/vendor/lib/libllvm-qcom.so|deebd38f415f0888144cad9e5cbcbfa2439fe753:/system/vendor/lib/libllvm-qcom.so|deebd38f415f0888144cad9e5cbcbfa2439fe753 \
-        vendor/htc/eyeul/proprietary/vendor/lib/libOpenCL.so|8f9131c992b83126171a3e64622baf3635ed5424:/system/vendor/lib/libOpenCL.so|8f9131c992b83126171a3e64622baf3635ed5424 \
-        vendor/htc/eyeul/proprietary/vendor/lib/libsc-a3xx.so|9e6329f434fae0f4eec7c246c648dca499f89375:/system/vendor/lib/libsc-a3xx.so|9e6329f434fae0f4eec7c246c648dca499f89375 \
-        vendor/htc/eyeul/proprietary/vendor/lib/libRSDriver_adreno.so|dbdf3a7e1257a4c383f6990e2d5dfc24822c1ebc:/system/vendor/lib/libRSDriver_adreno.so|dbdf3a7e1257a4c383f6990e2d5dfc24822c1ebc \
-        vendor/htc/eyeul/proprietary/vendor/lib/librs_adreno.so|06574dc89b1b9fd9832a109d3fd1afff7febc77f:/system/vendor/lib/librs_adreno.so|06574dc89b1b9fd9832a109d3fd1afff7febc77f \
-        vendor/htc/eyeul/proprietary/vendor/lib/librs_adreno_sha1.so|c53e83adfdc77192ed55503ba185858950c976d8:/system/vendor/lib/librs_adreno_sha1.so|c53e83adfdc77192ed55503ba185858950c976d8 \
-        vendor/htc/eyeul/proprietary/vendor/lib/libscale.so|5cce434e527f9f392d4a98dd9474483a34a8c7ef:/system/vendor/lib/libscale.so|5cce434e527f9f392d4a98dd9474483a34a8c7ef \
-        vendor/htc/eyeul/proprietary/vendor/lib/libuiblur.so|12dd942092c05d978a2a2db3ea37e0b410427b52:/system/vendor/lib/libuiblur.so|12dd942092c05d978a2a2db3ea37e0b410427b52 \
+        vendor/htc/eyeul/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/egl/libGLESv2_adreno.so:/system/vendor/lib/egl/libGLESv2_adreno.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/egl/libq3dtools_adreno.so:/system/vendor/lib/egl/libq3dtools_adreno.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libadreno_utils.so:/system/vendor/lib/libadreno_utils.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libbccQTI.so:/system/vendor/lib/libbccQTI.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libC2D2.so:/system/vendor/lib/libC2D2.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libCB.so:/system/vendor/lib/libCB.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libc2d30-a3xx.so:/system/vendor/lib/libc2d30-a3xx.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libllvm-qcom.so:/system/vendor/lib/libllvm-qcom.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libRSDriver_adreno.so:/system/vendor/lib/libRSDriver_adreno.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/librs_adreno_sha1.so:/system/vendor/lib/librs_adreno_sha1.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libscale.so:/system/vendor/lib/libscale.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libuiblur.so:/system/vendor/lib/libuiblur.so \
         vendor/htc/eyeul/proprietary/etc/firmware/a330_pfp.fw:/system/etc/firmware/a330_pfp.fw \
         vendor/htc/eyeul/proprietary/etc/firmware/a330_pm4.fw:/system/etc/firmware/a330_pm4.fw \
         vendor/htc/eyeul/proprietary/etc/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
@@ -575,29 +575,29 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/etc/firmware/venus.b04:/system/etc/firmware/venus.b04 \
         vendor/htc/eyeul/proprietary/etc/firmware/venus.mbn:/system/etc/firmware/venus.mbn \
         vendor/htc/eyeul/proprietary/etc/firmware/venus.mdt:/system/etc/firmware/venus.mdt \
-        vendor/htc/eyeul/proprietary/bin/mpdecision|97ffb19a25cdb0ccf2e13e776fc7e8770fbf3901:/system/bin/mpdecision|97ffb19a25cdb0ccf2e13e776fc7e8770fbf3901 \
+        vendor/htc/eyeul/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/eyeul/proprietary/vendor/lib/libqti-perfd-client.so:/system/vendor/lib/libqti-perfd-client.so \
         vendor/htc/eyeul/proprietary/lib/hw/sensors.msm8974.so:/system/lib/hw/sensors.msm8974.so \
         vendor/htc/eyeul/proprietary/bin/time_daemon:/system/bin/time_daemon \
-        vendor/htc/eyeul/proprietary/vendor/lib/drm/libdrmwvmplugin.so|3bee766222895f524421eb996ca6a08bcf95f19f:/system/vendor/lib/drm/libdrmwvmplugin.so|3bee766222895f524421eb996ca6a08bcf95f19f \
-        vendor/htc/eyeul/proprietary/vendor/lib/mediadrm/libwvdrmengine.so|301e0ef26cfc3a22efd52ebf4bb095d0a33bc68d:/system/vendor/lib/mediadrm/libwvdrmengine.so|301e0ef26cfc3a22efd52ebf4bb095d0a33bc68d \
-        vendor/htc/eyeul/proprietary/vendor/lib/libwvdrm_L1.so|3eaf8ed1cb337608a1ccdb80d2c95804e7aea323:/system/vendor/lib/libwvdrm_L1.so|3eaf8ed1cb337608a1ccdb80d2c95804e7aea323 \
-        vendor/htc/eyeul/proprietary/vendor/lib/libwvm.so|59c4c078f4b897ddac8f665309b7a3f25522f207:/system/vendor/lib/libwvm.so|59c4c078f4b897ddac8f665309b7a3f25522f207 \
-        vendor/htc/eyeul/proprietary/vendor/lib/libWVStreamControlAPI_L1.so|6b28492ac55b9a3d86993343cf2c8b55240b3420:/system/vendor/lib/libWVStreamControlAPI_L1.so|6b28492ac55b9a3d86993343cf2c8b55240b3420 \
+        vendor/htc/eyeul/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/htc/eyeul/proprietary/etc/firmware/widevine.b00:/system/etc/firmware/widevine.b00 \
         vendor/htc/eyeul/proprietary/etc/firmware/widevine.b01:/system/etc/firmware/widevine.b01 \
         vendor/htc/eyeul/proprietary/etc/firmware/widevine.b02:/system/etc/firmware/widevine.b02 \
         vendor/htc/eyeul/proprietary/etc/firmware/widevine.b03:/system/etc/firmware/widevine.b03 \
         vendor/htc/eyeul/proprietary/etc/firmware/widevine.mdt:/system/etc/firmware/widevine.mdt \
-        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b00|e45f3acc13806ce9b36bdd426b35d26bae0485a3:/system/vendor/firmware/wcnss.b00|e45f3acc13806ce9b36bdd426b35d26bae0485a3 \
-        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b01|fdd7b80c8a9d5724904d8c860277ee1b3a329adc:/system/vendor/firmware/wcnss.b01|fdd7b80c8a9d5724904d8c860277ee1b3a329adc \
-        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b02|38306495d0e846c8854192c2a4aa1324ad6b9ef7:/system/vendor/firmware/wcnss.b02|38306495d0e846c8854192c2a4aa1324ad6b9ef7 \
-        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b04|f7fde83f3a632aa7d35cda03f46382f854932ef0:/system/vendor/firmware/wcnss.b04|f7fde83f3a632aa7d35cda03f46382f854932ef0 \
-        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b06|417c8c87ee1f3ee6266ec1a5e2384a1405b261da:/system/vendor/firmware/wcnss.b06|417c8c87ee1f3ee6266ec1a5e2384a1405b261da \
-        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b07|fb3d8fb74570a077e332993f7d3d27603501b987:/system/vendor/firmware/wcnss.b07|fb3d8fb74570a077e332993f7d3d27603501b987 \
-        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b08|6db99ec3aead0e567d869c2f5676483b66422d38:/system/vendor/firmware/wcnss.b08|6db99ec3aead0e567d869c2f5676483b66422d38 \
-        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b09|96a8956b6b33e2df065131c40d3b0bd1e112612d:/system/vendor/firmware/wcnss.b09|96a8956b6b33e2df065131c40d3b0bd1e112612d \
-        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.mdt|10ddd8a73e253fdf483902cb2515c827f155ca84:/system/vendor/firmware/wcnss.mdt|10ddd8a73e253fdf483902cb2515c827f155ca84 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b00:/system/vendor/firmware/wcnss.b00 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b01:/system/vendor/firmware/wcnss.b01 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b02:/system/vendor/firmware/wcnss.b02 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b04:/system/vendor/firmware/wcnss.b04 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b06:/system/vendor/firmware/wcnss.b06 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b07:/system/vendor/firmware/wcnss.b07 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b08:/system/vendor/firmware/wcnss.b08 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b09:/system/vendor/firmware/wcnss.b09 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.mdt:/system/vendor/firmware/wcnss.mdt \
         vendor/htc/eyeul/proprietary/lib/hw/libpn547_fw.so:/system/lib/hw/libpn547_fw.so \
         vendor/htc/eyeul/proprietary/etc/flp.conf:/system/etc/flp.conf \
         vendor/htc/eyeul/proprietary/etc/gps.conf:/system/etc/gps.conf \
