@@ -107,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6-common/proprietary/etc/tfa/voip_l.config:system/etc/tfa/voip_l.config \
     vendor/htc/t6-common/proprietary/etc/tfa/voip_l.eq:system/etc/tfa/voip_l.eq \
     vendor/htc/t6-common/proprietary/etc/tfa/voip_l.preset:system/etc/tfa/voip_l.preset \
+	vendor/htc/t6-common/proprietary/etc/res_ctrl.conf:system/etc/res_ctrl.conf \
     vendor/htc/t6-common/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/htc/t6-common/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/htc/t6-common/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
