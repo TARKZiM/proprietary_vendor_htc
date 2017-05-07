@@ -598,7 +598,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b08:system/vendor/firmware/wcnss.b08 \
         vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b09:system/vendor/firmware/wcnss.b09 \
         vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
-        vendor/htc/eyeul/proprietary/lib/hw/libpn547_fw.so:system/lib/hw/libpn547_fw.so \
+        vendor/htc/eyeul/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
         vendor/htc/eyeul/proprietary/etc/flp.conf:system/etc/flp.conf \
         vendor/htc/eyeul/proprietary/etc/gps.conf:system/etc/gps.conf \
         vendor/htc/eyeul/proprietary/etc/izat.conf:system/etc/izat.conf \
