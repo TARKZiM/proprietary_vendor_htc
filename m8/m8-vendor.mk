@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqcci_legacy.so:system/blobs/gsm/vendor/lib/libqcci_legacy.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqdi.so:system/blobs/gsm/vendor/lib/libqdi.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqdp.so:system/blobs/gsm/vendor/lib/libqdp.so \
+    vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqmi.so:system/blobs/gsm/vendor/lib/libqmi.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqmi_cci.so:system/blobs/gsm/vendor/lib/libqmi_cci.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqmi_client_helper.so:system/blobs/gsm/vendor/lib/libqmi_client_helper.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqmi_client_qmux.so:system/blobs/gsm/vendor/lib/libqmi_client_qmux.so \
@@ -40,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqmi_csi.so:system/blobs/gsm/vendor/lib/libqmi_csi.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqmi_encdec.so:system/blobs/gsm/vendor/lib/libqmi_encdec.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqmiservices.so:system/blobs/gsm/vendor/lib/libqmiservices.so \
-    vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqmi.so:system/blobs/gsm/vendor/lib/libqmi.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libril-qc-qmi-1.so:system/blobs/gsm/vendor/lib/libril-qc-qmi-1.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so:system/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libsmemlog.so:system/blobs/gsm/vendor/lib/libsmemlog.so \
@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libqcci_legacy.so:system/blobs/spr/vendor/lib/libqcci_legacy.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libqdi.so:system/blobs/spr/vendor/lib/libqdi.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libqdp.so:system/blobs/spr/vendor/lib/libqdp.so \
+    vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libqmi.so:system/blobs/spr/vendor/lib/libqmi.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libqmi_cci.so:system/blobs/spr/vendor/lib/libqmi_cci.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libqmi_client_helper.so:system/blobs/spr/vendor/lib/libqmi_client_helper.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libqmi_client_qmux.so:system/blobs/spr/vendor/lib/libqmi_client_qmux.so \
@@ -68,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libqmi_csvt_srvc.so:system/blobs/spr/vendor/lib/libqmi_csvt_srvc.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libqmi_encdec.so:system/blobs/spr/vendor/lib/libqmi_encdec.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libqmiservices.so:system/blobs/spr/vendor/lib/libqmiservices.so \
-    vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libqmi.so:system/blobs/spr/vendor/lib/libqmi.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libril-qc-qmi-1.so:system/blobs/spr/vendor/lib/libril-qc-qmi-1.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libril-qcril-hook-oem.so:system/blobs/spr/vendor/lib/libril-qcril-hook-oem.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libsmemlog.so:system/blobs/spr/vendor/lib/libsmemlog.so \
@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libqcci_legacy.so:system/blobs/vzw/vendor/lib/libqcci_legacy.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libqdi.so:system/blobs/vzw/vendor/lib/libqdi.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libqdp.so:system/blobs/vzw/vendor/lib/libqdp.so \
+    vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libqmi.so:system/blobs/vzw/vendor/lib/libqmi.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libqmi_cci.so:system/blobs/vzw/vendor/lib/libqmi_cci.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libqmi_client_helper.so:system/blobs/vzw/vendor/lib/libqmi_client_helper.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libqmi_client_qmux.so:system/blobs/vzw/vendor/lib/libqmi_client_qmux.so \
@@ -96,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libqmi_csvt_srvc.so:system/blobs/vzw/vendor/lib/libqmi_csvt_srvc.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libqmi_encdec.so:system/blobs/vzw/vendor/lib/libqmi_encdec.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libqmiservices.so:system/blobs/vzw/vendor/lib/libqmiservices.so \
-    vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libqmi.so:system/blobs/vzw/vendor/lib/libqmi.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libril-qc-qmi-1.so:system/blobs/vzw/vendor/lib/libril-qc-qmi-1.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libril-qcril-hook-oem.so:system/blobs/vzw/vendor/lib/libril-qcril-hook-oem.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libsmemlog.so:system/blobs/vzw/vendor/lib/libsmemlog.so \
