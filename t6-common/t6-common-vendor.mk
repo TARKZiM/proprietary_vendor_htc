@@ -229,5 +229,3 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6-common/proprietary/vendor/lib/libfpsvc.so:system/vendor/lib/libfpsvc.so \
     vendor/htc/t6-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/htc/t6-common/proprietary/validity/ValidityPersistentData:system/validity/ValidityPersistentData
-
-$(call inherit-product, vendor/qcom/binaries/msm8960/graphics/graphics-vendor.mk)
