@@ -78,4 +78,25 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6/proprietary/blobs/vzw/lib/libqmi_encdec.so:system/blobs/vzw/lib/libqmi_encdec.so \
     vendor/htc/t6/proprietary/blobs/vzw/lib/libqmiservices.so:system/blobs/vzw/lib/libqmiservices.so \
     vendor/htc/t6/proprietary/blobs/vzw/lib/libril-qc-qmi-1.so:system/blobs/vzw/lib/libril-qc-qmi-1.so \
-    vendor/htc/t6/proprietary/blobs/vzw/lib/libril-qcril-hook-oem.so:system/blobs/vzw/lib/libril-qcril-hook-oem.so
+    vendor/htc/t6/proprietary/blobs/vzw/lib/libril-qcril-hook-oem.so:system/blobs/vzw/lib/libril-qcril-hook-oem.so \
+    vendor/htc/t6/proprietary/blobs/tl/bin/efsks:system/blobs/tl/bin/efsks \
+    vendor/htc/t6/proprietary/blobs/tl/bin/netmgrd:system/blobs/tl/bin/netmgrd \
+    vendor/htc/t6/proprietary/blobs/tl/bin/qcks:system/blobs/tl/bin/qcks \
+    vendor/htc/t6/proprietary/blobs/tl/bin/qmuxd:system/blobs/tl/bin/qmuxd \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libdiag.so:system/blobs/tl/lib/libdiag.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libdsi_netctrl.so:system/blobs/tl/lib/libdsi_netctrl.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libdsutils.so:system/blobs/tl/lib/libdsutils.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libidl.so:system/blobs/tl/lib/libidl.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libnetmgr.so:system/blobs/tl/lib/libnetmgr.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libqcci_legacy.so:system/blobs/tl/lib/libqcci_legacy.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libqdi.so:system/blobs/tl/lib/libqdi.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libqdp.so:system/blobs/tl/lib/libqdp.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libqmi.so:system/blobs/tl/lib/libqmi.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libqmi_cci.so:system/blobs/tl/lib/libqmi_cci.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libqmi_client_qmux.so:system/blobs/tl/lib/libqmi_client_qmux.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libqmi_common_so.so:system/blobs/tl/lib/libqmi_common_so.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libqmi_csi.so:system/blobs/tl/lib/libqmi_csi.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libqmi_encdec.so:system/blobs/tl/lib/libqmi_encdec.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libqmiservices.so:system/blobs/tl/lib/libqmiservices.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libril-qc-qmi-1.so:system/blobs/tl/lib/libril-qc-qmi-1.so \
+    vendor/htc/t6/proprietary/blobs/tl/lib/libril-qcril-hook-oem.so:system/blobs/tl/lib/libril-qcril-hook-oem.so
