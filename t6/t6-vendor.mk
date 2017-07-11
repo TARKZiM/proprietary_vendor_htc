@@ -57,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6/proprietary/blobs/spr/lib/libqmiservices.so:system/blobs/spr/lib/libqmiservices.so \
     vendor/htc/t6/proprietary/blobs/spr/lib/libril-qc-qmi-1.so:system/blobs/spr/lib/libril-qc-qmi-1.so \
     vendor/htc/t6/proprietary/blobs/spr/lib/libril-qcril-hook-oem.so:system/blobs/spr/lib/libril-qcril-hook-oem.so \
+    vendor/htc/t6/proprietary/blobs/spr/lib/libtime_genoff.so:system/blobs/spr/lib/libtime_genoff.so \
     vendor/htc/t6/proprietary/blobs/vzw/bin/efsks:system/blobs/vzw/bin/efsks \
     vendor/htc/t6/proprietary/blobs/vzw/bin/netmgrd:system/blobs/vzw/bin/netmgrd \
     vendor/htc/t6/proprietary/blobs/vzw/bin/qcks:system/blobs/vzw/bin/qcks \
