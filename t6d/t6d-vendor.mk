@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6d/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/htc/t6d/proprietary/bin/qcks:system/bin/qcks \
     vendor/htc/t6d/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/htc/t6d/proprietary/bin/rild_qsc:system/bin/rild_qsc \
     vendor/htc/t6d/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/htc/t6d/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/htc/t6d/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -34,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6d/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
     vendor/htc/t6d/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/htc/t6d/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+    vendor/htc/t6d/proprietary/lib/libril_qsc.so:system/lib/libril_qsc.so \
     vendor/htc/t6d/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/htc/t6d/proprietary/lib/libril-qc-qmi-qsc.so:system/lib/libril-qc-qmi-qsc.so \
     vendor/htc/t6d/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
