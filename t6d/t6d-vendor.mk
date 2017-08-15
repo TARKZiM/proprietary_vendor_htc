@@ -23,6 +23,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6d/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/htc/t6d/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/htc/t6d/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/htc/t6d/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
+    vendor/htc/t6d/proprietary/lib/libhtc_rilhook_qsc.so:system/lib/libhtc_rilhook_qsc.so \
     vendor/htc/t6d/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/htc/t6d/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/htc/t6d/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
