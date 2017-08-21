@@ -634,7 +634,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/bin/netmgrd:system/bin/netmgrd \
         vendor/htc/eyeul/proprietary/bin/qmuxd:system/bin/qmuxd \
         vendor/htc/eyeul/proprietary/bin/radish:system/bin/radish \
-        vendor/htc/eyeul/proprietary/bin/rild:system/bin/rild \
         vendor/htc/eyeul/proprietary/bin/rmt_storage:system/bin/rmt_storage \
         vendor/htc/eyeul/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
