@@ -599,16 +599,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b09:system/vendor/firmware/wcnss.b09 \
         vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
         vendor/htc/eyeul/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-        vendor/htc/eyeul/proprietary/etc/flp.conf:system/etc/flp.conf \
-        vendor/htc/eyeul/proprietary/etc/gps.conf:system/etc/gps.conf \
-        vendor/htc/eyeul/proprietary/etc/izat.conf:system/etc/izat.conf \
-        vendor/htc/eyeul/proprietary/etc/sap.conf:system/etc/sap.conf \
-        vendor/htc/eyeul/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-        vendor/htc/eyeul/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
         vendor/htc/eyeul/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-        vendor/htc/eyeul/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
         vendor/htc/eyeul/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-        vendor/htc/eyeul/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
         vendor/htc/eyeul/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
