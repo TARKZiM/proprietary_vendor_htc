@@ -540,6 +540,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
