@@ -17,6 +17,8 @@
 PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/bin/adsprpcd:system/bin/adsprpcd \
         vendor/htc/eyeul/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
