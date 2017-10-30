@@ -510,7 +510,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
         vendor/htc/eyeul/proprietary/bin/qseecomd:system/bin/qseecomd \
         vendor/htc/eyeul/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-        vendor/htc/eyeul/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
