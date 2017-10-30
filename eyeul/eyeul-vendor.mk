@@ -570,10 +570,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
         vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
         vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-        vendor/htc/eyeul/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-        vendor/htc/eyeul/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-        vendor/htc/eyeul/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-        vendor/htc/eyeul/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
         vendor/htc/eyeul/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
         vendor/htc/eyeul/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
         vendor/htc/eyeul/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
