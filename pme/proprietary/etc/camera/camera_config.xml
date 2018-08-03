@@ -1,5 +1,5 @@
 <!--
-  Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+  Copyright (c) 2015-2017 Qualcomm Technologies, Inc.
   All Rights Reserved.
   Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
@@ -184,5 +184,51 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+  <StereoConfig>
+    <SensorNode>
+      <CameraId>1</CameraId>
+      <SensorName>ov7251</SensorName>
+      <ChromatixName>ov7251_chromatix</ChromatixName>
+      <ModesSupported>1</ModesSupported>
+      <Position>FRONT</Position>
+      <MountAngle>360</MountAngle>
+      <CSIInfo>
+        <CSIDCore>1</CSIDCore>
+        <LaneMask>0x3</LaneMask>
+        <LaneAssign>0x0</LaneAssign>
+        <ComboMode>1</ComboMode>
+      </CSIInfo>
+      <LensInfo>
+        <FocalLength>4.73</FocalLength>
+        <FNumber>2.2</FNumber>
+        <TotalFocusDistance>1.9</TotalFocusDistance>
+        <HorizontalViewAngle>64.1</HorizontalViewAngle>
+        <VerticalViewAngle>51.6</VerticalViewAngle>
+        <MinFocusDistance>0.1</MinFocusDistance>
+      </LensInfo>
+    </SensorNode>
+    <SensorNode>
+      <CameraId>3</CameraId>
+      <SensorName>ov7251</SensorName>
+      <ChromatixName>ov7251_chromatix</ChromatixName>
+      <ModesSupported>1</ModesSupported>
+      <Position>FRONT</Position>
+      <MountAngle>360</MountAngle>
+      <CSIInfo>
+        <CSIDCore>3</CSIDCore>
+        <LaneMask>0x18</LaneMask>
+        <LaneAssign>0x3</LaneAssign>
+        <ComboMode>1</ComboMode>
+      </CSIInfo>
+      <LensInfo>
+        <FocalLength>4.73</FocalLength>
+        <FNumber>2.2</FNumber>
+        <TotalFocusDistance>1.9</TotalFocusDistance>
+        <HorizontalViewAngle>64.1</HorizontalViewAngle>
+        <VerticalViewAngle>51.6</VerticalViewAngle>
+        <MinFocusDistance>0.1</MinFocusDistance>
+      </LensInfo>
+    </SensorNode>
+  </StereoConfig>
 </CameraConfigurationRoot>
 
