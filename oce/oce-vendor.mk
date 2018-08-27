@@ -69,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/etc/firmware/cppf.b05:system/etc/firmware/cppf.b05 \
     vendor/htc/oce/proprietary/etc/firmware/cppf.b06:system/etc/firmware/cppf.b06 \
     vendor/htc/oce/proprietary/etc/firmware/cppf.mdt:system/etc/firmware/cppf.mdt \
-    vendor/htc/oce/proprietary/etc/firmware/cs_CY8C.img:system/etc/firmware/cs_CY8C.img \
     vendor/htc/oce/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
     vendor/htc/oce/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
     vendor/htc/oce/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
@@ -105,9 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/etc/firmware/mc_v2.b05:system/etc/firmware/mc_v2.b05 \
     vendor/htc/oce/proprietary/etc/firmware/mc_v2.b06:system/etc/firmware/mc_v2.b06 \
     vendor/htc/oce/proprietary/etc/firmware/mc_v2.mdt:system/etc/firmware/mc_v2.mdt \
-    vendor/htc/oce/proprietary/etc/firmware/synaptics.img:system/etc/firmware/synaptics.img \
-    vendor/htc/oce/proprietary/etc/firmware/usb_typec_otp.img:system/etc/firmware/usb_typec_otp.img \
-    vendor/htc/oce/proprietary/etc/firmware/usb_typec_otp_ad.img:system/etc/firmware/usb_typec_otp_ad.img \
     vendor/htc/oce/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
     vendor/htc/oce/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
     vendor/htc/oce/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
