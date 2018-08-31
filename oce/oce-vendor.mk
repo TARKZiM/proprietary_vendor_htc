@@ -104,6 +104,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/etc/firmware/mc_v2.b05:system/etc/firmware/mc_v2.b05 \
     vendor/htc/oce/proprietary/etc/firmware/mc_v2.b06:system/etc/firmware/mc_v2.b06 \
     vendor/htc/oce/proprietary/etc/firmware/mc_v2.mdt:system/etc/firmware/mc_v2.mdt \
+    vendor/htc/oce/proprietary/etc/firmware/siw.bin:system/etc/firmware/siw.bin \
+    vendor/htc/oce/proprietary/etc/firmware/siw.img:system/etc/firmware/siw.img \
+    vendor/htc/oce/proprietary/etc/firmware/siw_1.bin:system/etc/firmware/siw_1.bin \
+    vendor/htc/oce/proprietary/etc/firmware/siw_1.img:system/etc/firmware/siw_1.img \
+    vendor/htc/oce/proprietary/etc/firmware/siw_a.img:system/etc/firmware/siw_a.img \
+    vendor/htc/oce/proprietary/etc/firmware/cs_HMX.img:system/etc/firmware/cs_HMX.img \
+    vendor/htc/oce/proprietary/etc/firmware/cs_HMX_A.img:system/etc/firmware/cs_HMX_A.img \
+    vendor/htc/oce/proprietary/etc/firmware/cs_HMX_B.img:system/etc/firmware/cs_HMX_B.img \
     vendor/htc/oce/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
     vendor/htc/oce/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
     vendor/htc/oce/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
@@ -321,23 +329,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/htc/oce/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
     vendor/htc/oce/proprietary/vendor/firmware/libpn551_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn551_fw.so \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b00 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b01 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b02 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b03 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b04 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b05 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b06 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b07 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b08 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b09 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b10 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b11 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b12 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b13 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b14 \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.cfg \
-    vendor/htc/oce/proprietary/vendor/firmware/slpi.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.mdt \
     vendor/htc/oce/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/htc/oce/proprietary/vendor/firmware/tfa98xx2.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx2.cnt \
     vendor/htc/oce/proprietary/vendor/firmware/tfa98xx2_n1b.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx2_n1b.cnt \
