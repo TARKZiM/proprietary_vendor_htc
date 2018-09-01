@@ -313,6 +313,28 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/firmware/BCM4349B1_002.002.014.0051.0061.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4349B1_002.002.014.0051.0061.hcd \
     vendor/htc/oce/proprietary/vendor/firmware/BCM4359C0_003.001.006.0065.0111.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4359C0_003.001.006.0065.0111.hcd \
     vendor/htc/oce/proprietary/vendor/firmware/buildid.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/buildid.cfg \
+    vendor/htc/oce/proprietary/vendor/firmware/cbfp_app.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cbfp_app.mdt \
+    vendor/htc/oce/proprietary/vendor/firmware/cbfp_app.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cbfp_app.b00 \
+    vendor/htc/oce/proprietary/vendor/firmware/cbfp_app.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cbfp_app.b01 \
+    vendor/htc/oce/proprietary/vendor/firmware/cbfp_app.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/cbfp_app.b02 \
+    vendor/htc/oce/proprietary/vendor/firmware/cbfp_app.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/cbfp_app.b03 \
+    vendor/htc/oce/proprietary/vendor/firmware/cbfp_app.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/cbfp_app.b04 \
+    vendor/htc/oce/proprietary/vendor/firmware/cbfp_app.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/cbfp_app.b05 \
+    vendor/htc/oce/proprietary/vendor/firmware/cbfp_app.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/cbfp_app.b06 \
+    vendor/htc/oce/proprietary/vendor/firmware/cpe_9335.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.mdt \
+    vendor/htc/oce/proprietary/vendor/firmware/cpe_9335.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b08 \
+    vendor/htc/oce/proprietary/vendor/firmware/cpe_9335.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b09 \
+    vendor/htc/oce/proprietary/vendor/firmware/cpe_9335.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b11 \
+    vendor/htc/oce/proprietary/vendor/firmware/cpe_9335.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b14 \
+    vendor/htc/oce/proprietary/vendor/firmware/cpe_9335.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b16 \
+    vendor/htc/oce/proprietary/vendor/firmware/cpe_9335.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b18 \
+    vendor/htc/oce/proprietary/vendor/firmware/cpe_9335.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b19 \
+    vendor/htc/oce/proprietary/vendor/firmware/cpe_9335.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b20 \
+    vendor/htc/oce/proprietary/vendor/firmware/cpe_9335.b22:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b22 \
+    vendor/htc/oce/proprietary/vendor/firmware/cpe_9335.b24:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b24 \
+    vendor/htc/oce/proprietary/vendor/firmware/cpe_9335.b26:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b26 \
+    vendor/htc/oce/proprietary/vendor/firmware/cpe_9335.b28:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b28 \
+    vendor/htc/oce/proprietary/vendor/firmware/cpe_9335.b29:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b29 \
     vendor/htc/oce/proprietary/vendor/firmware/fw_bcm4359.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm4359.bin \
     vendor/htc/oce/proprietary/vendor/firmware/fw_bcm4359_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm4359_apsta.bin \
     vendor/htc/oce/proprietary/vendor/firmware/fw_bcm4359b1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm4359b1.bin \
@@ -330,9 +352,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
     vendor/htc/oce/proprietary/vendor/firmware/libpn551_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn551_fw.so \
     vendor/htc/oce/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
-    vendor/htc/oce/proprietary/vendor/firmware/tfa98xx2.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx2.cnt \
-    vendor/htc/oce/proprietary/vendor/firmware/tfa98xx2_n1b.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx2_n1b.cnt \
-    vendor/htc/oce/proprietary/vendor/firmware/tfa98xx_n1b.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_n1b.cnt \
     vendor/htc/oce/proprietary/vendor/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b00 \
     vendor/htc/oce/proprietary/vendor/firmware/venus.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b01 \
     vendor/htc/oce/proprietary/vendor/firmware/venus.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b02 \
