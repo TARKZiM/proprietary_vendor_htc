@@ -22,7 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/customize/mns_map.xml:system/customize/mns_map.xml \
     vendor/htc/oce/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/htc/oce/proprietary/etc/camera/imx351_htc_chromatix.xml:system/etc/camera/imx351_htc_chromatix.xml \
-    vendor/htc/oce/proprietary/etc/camera/ov12890_htc_chromatix.xml:system/etc/camera/ov12890_htc_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx351_htc_sapphire_chromatix.xml:system/etc/camera/imx351_htc_sapphire_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/ov12890eco_pdaf_htc_chromatix.xml:system/etc/camera/ov12890eco_pdaf_htc_chromatix.xml \
     vendor/htc/oce/proprietary/etc/camera/ov12890eco_htc_chromatix.xml:system/etc/camera/ov12890eco_htc_chromatix.xml \
     vendor/htc/oce/proprietary/etc/camera/s5k4e6_htc_chromatix.xml:system/etc/camera/s5k4e6_htc_chromatix.xml \
     vendor/htc/oce/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
