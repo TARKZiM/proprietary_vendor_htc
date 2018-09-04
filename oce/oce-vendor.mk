@@ -340,15 +340,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/firmware/fw_bcm4359_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm4359_apsta.bin \
     vendor/htc/oce/proprietary/vendor/firmware/fw_bcm4359b1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm4359b1.bin \
     vendor/htc/oce/proprietary/vendor/firmware/fw_bcm4359b1_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm4359b1_apsta.bin \
-    vendor/htc/oce/proprietary/vendor/firmware/gptauuid.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/gptauuid.xml \
-    vendor/htc/oce/proprietary/vendor/firmware/htc_fpc_ta.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b00 \
-    vendor/htc/oce/proprietary/vendor/firmware/htc_fpc_ta.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b01 \
-    vendor/htc/oce/proprietary/vendor/firmware/htc_fpc_ta.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b02 \
-    vendor/htc/oce/proprietary/vendor/firmware/htc_fpc_ta.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b03 \
-    vendor/htc/oce/proprietary/vendor/firmware/htc_fpc_ta.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b04 \
-    vendor/htc/oce/proprietary/vendor/firmware/htc_fpc_ta.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b05 \
-    vendor/htc/oce/proprietary/vendor/firmware/htc_fpc_ta.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b06 \
-    vendor/htc/oce/proprietary/vendor/firmware/htc_fpc_ta.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.mdt \
     vendor/htc/oce/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/htc/oce/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
     vendor/htc/oce/proprietary/vendor/firmware/libpn551_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn551_fw.so \
