@@ -16,6 +16,9 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/bin/htcnetd:system/bin/htcnetd \
     vendor/htc/oce/proprietary/bin/htcnetdumplog:system/bin/htcnetdumplog \
+    vendor/htc/oce/proprietary/bin/fp_img_encrypt:system/bin/fp_img_encrypt \
+    vendor/htc/oce/proprietary/bin/fp_img_utf_preprocess:system/bin/fp_img_utf_preprocess \
+    vendor/htc/oce/proprietary/bin/fpc_security_scan:system/bin/fpc_security_scan \
     vendor/htc/oce/proprietary/customize/MNSprop/310160.prop:system/customize/MNSprop/310160.prop \
     vendor/htc/oce/proprietary/customize/MNSprop/311180.prop:system/customize/MNSprop/311180.prop \
     vendor/htc/oce/proprietary/customize/MNSprop/default.prop:system/customize/MNSprop/default.prop \
@@ -184,8 +187,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/lib/libhtc_humanprocess.so:system/lib/libhtc_humanprocess.so \
     vendor/htc/oce/proprietary/lib/libhtc_facebeauty.so:system/lib/libhtc_facebeauty.so \
     vendor/htc/oce/proprietary/lib/libhtc_sensorhub.so:system/lib/libhtc_sensorhub.so \
-    vendor/htc/oce/proprietary/lib/libhubconnection.so:system/lib/libhtc_sensorhub.so \
-    vendor/htc/oce/proprietary/lib/libmdsprpc.so:system/lib/libhubconnection.so \
+    vendor/htc/oce/proprietary/lib/libhubconnection.so:system/lib/libhubconnection.so \
+    vendor/htc/oce/proprietary/lib/libmdsprpc.so:system/lib/libmdsprpc.so \
     vendor/htc/oce/proprietary/lib/libmorpho_edit_engine.so:system/lib/libmorpho_edit_engine.so \
     vendor/htc/oce/proprietary/lib/libmorpho_frame_overlay.so:system/lib/libmorpho_frame_overlay.so \
     vendor/htc/oce/proprietary/lib/libmorpho_image_converter.so:system/lib/libmorpho_image_converter.so \
@@ -247,8 +250,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/htc/oce/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
     vendor/htc/oce/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
+    vendor/htc/oce/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/htc/oce/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
     vendor/htc/oce/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
+    vendor/htc/oce/proprietary/vendor/bin/DR_AP_Service:$(TARGET_COPY_OUT_VENDOR)/bin/DR_AP_Service \
     vendor/htc/oce/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/htc/oce/proprietary/vendor/bin/htcdcpd:$(TARGET_COPY_OUT_VENDOR)/bin/htcdcpd \
     vendor/htc/oce/proprietary/vendor/bin/imsrcsd:$(TARGET_COPY_OUT_VENDOR)/bin/imsrcsd \
@@ -268,6 +273,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/htc/oce/proprietary/vendor/bin/radish:$(TARGET_COPY_OUT_VENDOR)/bin/radish \
     vendor/htc/oce/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
+    vendor/htc/oce/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
+    vendor/htc/oce/proprietary/vendor/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
+    vendor/htc/oce/proprietary/vendor/bin/ssr_diag:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_diag \
+    vendor/htc/oce/proprietary/vendor/bin/tbaseLoader:$(TARGET_COPY_OUT_VENDOR)/bin/tbaseLoader \
     vendor/htc/oce/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/htc/oce/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/htc/oce/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
@@ -377,9 +386,36 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/firmware/fw_bcm4359_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm4359_apsta.bin \
     vendor/htc/oce/proprietary/vendor/firmware/fw_bcm4359b1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm4359b1.bin \
     vendor/htc/oce/proprietary/vendor/firmware/fw_bcm4359b1_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm4359b1_apsta.bin \
+    vendor/htc/oce/proprietary/vendor/firmware/fpctzappfingerprint.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b00 \
+    vendor/htc/oce/proprietary/vendor/firmware/fpctzappfingerprint.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b01 \
+    vendor/htc/oce/proprietary/vendor/firmware/fpctzappfingerprint.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b02 \
+    vendor/htc/oce/proprietary/vendor/firmware/fpctzappfingerprint.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b03 \
+    vendor/htc/oce/proprietary/vendor/firmware/fpctzappfingerprint.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b04 \
+    vendor/htc/oce/proprietary/vendor/firmware/fpctzappfingerprint.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b05 \
+    vendor/htc/oce/proprietary/vendor/firmware/fpctzappfingerprint.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b06 \
+    vendor/htc/oce/proprietary/vendor/firmware/fpctzappfingerprint.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.mdt \
     vendor/htc/oce/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/htc/oce/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
     vendor/htc/oce/proprietary/vendor/firmware/libpn551_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn551_fw.so \
+    vendor/htc/oce/proprietary/vendor/firmware/nanohub.full.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nanohub.full.bin \
+    vendor/htc/oce/proprietary/vendor/firmware/napp_list.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/napp_list.cfg \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b00 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b01 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b02 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b03 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b04 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b05 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b06 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b07 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b08 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b09 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b10 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b11 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b12 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b13 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b14 \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.cfg \
+    vendor/htc/oce/proprietary/vendor/firmware/slpi.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.mdt \
     vendor/htc/oce/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/htc/oce/proprietary/vendor/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b00 \
     vendor/htc/oce/proprietary/vendor/firmware/venus.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b01 \
