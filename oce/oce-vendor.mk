@@ -21,10 +21,45 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/customize/MNSprop/default.prop:system/customize/MNSprop/default.prop \
     vendor/htc/oce/proprietary/customize/mns_map.xml:system/customize/mns_map.xml \
     vendor/htc/oce/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
+    vendor/htc/oce/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
+    vendor/htc/oce/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx214_chromatix.xml:system/etc/camera/imx214_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx230_chromatix.xml:system/etc/camera/imx230_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx230_qc2002_chromatix.xml:system/etc/camera/imx230_qc2002_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx230_qc2002_with_gyro_chromatix.xml:system/etc/camera/imx230_qc2002_with_gyro_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx258_bear_chromatix.xml:system/etc/camera/imx258_bear_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx258_mono_bear_chromatix.xml:system/etc/camera/imx258_mono_bear_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx258_mono_chromatix.xml:system/etc/camera/imx258_mono_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx298_gt24c64_chromatix.xml:system/etc/camera/imx298_gt24c64_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx318_chromatix.xml:system/etc/camera/imx318_chromatix.xml \
     vendor/htc/oce/proprietary/etc/camera/imx351_htc_chromatix.xml:system/etc/camera/imx351_htc_chromatix.xml \
     vendor/htc/oce/proprietary/etc/camera/imx351_htc_sapphire_chromatix.xml:system/etc/camera/imx351_htc_sapphire_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx362_chromatix.xml:system/etc/camera/imx362_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx362_chromatix_bear.xml:system/etc/camera/imx362_chromatix_bear.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx377_htc_chromatix.xml:system/etc/camera/imx377_htc_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/imx378_chromatix.xml:system/etc/camera/imx378_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/ov13850_chromatix.xml:system/etc/camera/ov13850_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/ov13850_q13v06k_chromatix.xml:system/etc/camera/ov13850_q13v06k_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/ov2680_chromatix.xml:system/etc/camera/ov2680_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/ov4688_chromatix.xml:system/etc/camera/ov4688_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/ov5670_chromatix.xml:system/etc/camera/ov5670_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/ov5670_f5670bq_chromatix.xml:system/etc/camera/ov5670_f5670bq_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/ov5695_chromatix.xml:system/etc/camera/ov5695_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/ov8858_chromatix.xml:system/etc/camera/ov8858_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
     vendor/htc/oce/proprietary/etc/camera/ov12890eco_pdaf_htc_chromatix.xml:system/etc/camera/ov12890eco_pdaf_htc_chromatix.xml \
     vendor/htc/oce/proprietary/etc/camera/ov12890eco_htc_chromatix.xml:system/etc/camera/ov12890eco_htc_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/ov12890_htc_chromatix.xml:system/etc/camera/ov12890_htc_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/s5k2l7_8953_chromatix.xml:system/etc/camera/s5k2l7_8953_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/s5k2l7_chromatix.xml:system/etc/camera/s5k2l7_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/s5k3l8_chromatix.xml:system/etc/camera/s5k3l8_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/s5k3l8_mono_chromatix.xml:system/etc/camera/s5k3l8_mono_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/s5k3m2xm_chromatix.xml:system/etc/camera/s5k3m2xm_chromatix.xml \
+    vendor/htc/oce/proprietary/etc/camera/s5k3m2xm_chromatix_bear.xml:system/etc/camera/s5k3m2xm_chromatix_bear.xml \
+    vendor/htc/oce/proprietary/etc/camera/s5k3m2xx_chromatix.xml:system/etc/camera/s5k3m2xx_chromatix.xml \
     vendor/htc/oce/proprietary/etc/camera/s5k4e6_htc_chromatix.xml:system/etc/camera/s5k4e6_htc_chromatix.xml \
     vendor/htc/oce/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/htc/oce/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
