@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/bin/fp_img_encrypt:system/bin/fp_img_encrypt \
     vendor/htc/oce/proprietary/bin/fp_img_utf_preprocess:system/bin/fp_img_utf_preprocess \
     vendor/htc/oce/proprietary/bin/fpc_security_scan:system/bin/fpc_security_scan \
+    vendor/htc/oce/proprietary/bin/nanoapp_cmd:system/bin/nanoapp_cmd \
     vendor/htc/oce/proprietary/customize/MNSprop/310160.prop:system/customize/MNSprop/310160.prop \
     vendor/htc/oce/proprietary/customize/MNSprop/311180.prop:system/customize/MNSprop/311180.prop \
     vendor/htc/oce/proprietary/customize/MNSprop/default.prop:system/customize/MNSprop/default.prop \
