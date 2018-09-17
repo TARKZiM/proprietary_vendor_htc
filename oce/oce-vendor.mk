@@ -209,7 +209,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/lib/libvendorconn.so:system/lib/libvendorconn.so \
     vendor/htc/oce/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/htc/oce/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
-    vendor/htc/oce/proprietary/lib/vendor.qti.hardware.camera.device@1.0.so:$system/lib/vendor.qti.hardware.camera.device@1.0.so \
+    vendor/htc/oce/proprietary/lib/vendor.qti.hardware.camera.device@1.0.so:system/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/htc/oce/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/htc/oce/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/htc/oce/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
