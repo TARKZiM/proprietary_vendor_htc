@@ -420,6 +420,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
     vendor/htc/oce/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/htc/oce/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
+    vendor/htc/oce/proprietary/vendor/lib/hw/audio.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8996.so \
     vendor/htc/oce/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
     vendor/htc/oce/proprietary/vendor/lib/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.msm8996.so \
     vendor/htc/oce/proprietary/vendor/lib/hw/fingerprint.idex.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.idex.so \
@@ -481,6 +482,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/htc/oce/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/htc/oce/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
+    vendor/htc/oce/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
     vendor/htc/oce/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/htc/oce/proprietary/vendor/lib/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a5xx.so \
     vendor/htc/oce/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
@@ -803,6 +805,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
     vendor/htc/oce/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/htc/oce/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
+    vendor/htc/oce/proprietary/vendor/lib/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_vendor.so \
     vendor/htc/oce/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/htc/oce/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/htc/oce/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
@@ -903,6 +906,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/htc/oce/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/htc/oce/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
+    vendor/htc/oce/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
     vendor/htc/oce/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/htc/oce/proprietary/vendor/lib64/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a5xx.so \
     vendor/htc/oce/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
@@ -1021,6 +1025,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/htc/oce/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
     vendor/htc/oce/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
+    vendor/htc/oce/proprietary/vendor/lib64/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress_vendor.so \
     vendor/htc/oce/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/htc/oce/proprietary/vendor/lib64/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_detected_face_hal.so \
     vendor/htc/oce/proprietary/vendor/lib64/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_face_beautify_hal.so \
