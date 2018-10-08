@@ -19,4 +19,7 @@ PRODUCT_PACKAGES += \
     libTimeService \
     libtime_genoff
 
+PRODUCT_PACKAGES += \
+    nfc_nci.msm8226
+
 $(call inherit-product, vendor/htc/a5-common/a5-common-vendor-blobs.mk)
