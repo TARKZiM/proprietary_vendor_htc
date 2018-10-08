@@ -642,3 +642,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     TimeService
+
+PRODUCT_PACKAGES += \
+    nfc_nci.msm8974
