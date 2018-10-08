@@ -19,4 +19,19 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter e8 e8d,$(TARGET_DEVICE)),)
 
+ifeq ($(strip $(BOARD_NFC_CHIPSET)),pn547)
+include $(CLEAR_VARS)
+LOCAL_MODULE := nfc_nci.msm8974
+LOCAL_MODULE_OWNER := htc
+LOCAL_SRC_FILES := proprietary/vendor/lib/hw/nfc_nci.msm8974.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+endif
+
 endif

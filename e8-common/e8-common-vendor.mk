@@ -314,4 +314,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/e8-common/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
-    TimeService
+    TimeService \
+    nfc_nci.msm8974
