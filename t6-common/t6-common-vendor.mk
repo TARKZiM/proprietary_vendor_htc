@@ -113,7 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6-common/proprietary/etc/tfa/voip_l.preset:system/etc/tfa/voip_l.preset \
     vendor/htc/t6-common/proprietary/vendor/lib/hw/camera.vendor.msm8960.so:system/vendor/lib/hw/camera.vendor.msm8960.so \
     vendor/htc/t6-common/proprietary/vendor/lib/hw/consumerir.default.so:system/vendor/lib/hw/consumerir.default.so \
-    vendor/htc/t6-common/proprietary/vendor/lib/hw/sensors.default.so:system/vendor/lib/hw/sensors.default.so \
+    vendor/htc/t6-common/proprietary/vendor/lib/hw/sensors.default.so:system/vendor/lib/sensors.t6.so \
     vendor/htc/t6-common/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
     vendor/htc/t6-common/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
     vendor/htc/t6-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
