@@ -1098,5 +1098,4 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     qcrilmsgtunnel \
     ims \
-    imssettings \
     FingerPrint
