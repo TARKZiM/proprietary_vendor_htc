@@ -1098,5 +1098,4 @@ PRODUCT_PACKAGES += \
     CNEService \
     qcrilmsgtunnel \
     ims \
-    imssettings \
     FingerPrint
