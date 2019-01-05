@@ -1044,6 +1044,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib64/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qcril-hook-oem.so \
     vendor/htc/oce/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so.uhl:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so.uhl \
     vendor/htc/oce/proprietary/vendor/lib64/libril-qc-qmi-1.so.uhl:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1.so.uhl \
+    vendor/htc/oce/proprietary/vendor/lib64/libril-qc-qmi-1.so.dtwl:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1.so.dtwl \
     vendor/htc/oce/proprietary/vendor/lib64/libril-qc-radioconfig.so.uhl:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-radioconfig.so.uhl \
     vendor/htc/oce/proprietary/vendor/lib64/libril-qcril-hook-oem.so.uhl:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qcril-hook-oem.so.uhl \
     vendor/htc/oce/proprietary/vendor/lib64/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmiservices.so \
