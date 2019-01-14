@@ -154,14 +154,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/htc/oce/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/htc/oce/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
-    vendor/htc/oce/proprietary/etc/firmware/cppf.b00:system/etc/firmware/cppf.b00 \
-    vendor/htc/oce/proprietary/etc/firmware/cppf.b01:system/etc/firmware/cppf.b01 \
-    vendor/htc/oce/proprietary/etc/firmware/cppf.b02:system/etc/firmware/cppf.b02 \
-    vendor/htc/oce/proprietary/etc/firmware/cppf.b03:system/etc/firmware/cppf.b03 \
-    vendor/htc/oce/proprietary/etc/firmware/cppf.b04:system/etc/firmware/cppf.b04 \
-    vendor/htc/oce/proprietary/etc/firmware/cppf.b05:system/etc/firmware/cppf.b05 \
-    vendor/htc/oce/proprietary/etc/firmware/cppf.b06:system/etc/firmware/cppf.b06 \
-    vendor/htc/oce/proprietary/etc/firmware/cppf.mdt:system/etc/firmware/cppf.mdt \
+    vendor/htc/oce/proprietary/vendor/firmware/cppf.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b00 \
+    vendor/htc/oce/proprietary/vendor/firmware/cppf.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b01 \
+    vendor/htc/oce/proprietary/vendor/firmware/cppf.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b02 \
+    vendor/htc/oce/proprietary/vendor/firmware/cppf.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b03 \
+    vendor/htc/oce/proprietary/vendor/firmware/cppf.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b04 \
+    vendor/htc/oce/proprietary/vendor/firmware/cppf.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b05 \
+    vendor/htc/oce/proprietary/vendor/firmware/cppf.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b06 \
+    vendor/htc/oce/proprietary/vendor/firmware/cppf.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.mdt \
     vendor/htc/oce/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
     vendor/htc/oce/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
     vendor/htc/oce/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
