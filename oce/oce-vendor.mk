@@ -1148,4 +1148,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     ims \
     FingerPrint \
-    SmartcardService
+    SmartcardService \
+    EasyAccessService
