@@ -1221,4 +1221,5 @@ PRODUCT_PACKAGES += \
     ims \
     SmartcardService \
     WfdService \
-    WfdCommon
+    WfdCommon \
+    EasyAccessService
