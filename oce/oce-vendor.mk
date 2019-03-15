@@ -1181,6 +1181,5 @@ PRODUCT_PACKAGES += \
     ims \
     FingerPrint \
     SmartcardService \
-    EasyAccessService \
     WfdService \
     WfdCommon
