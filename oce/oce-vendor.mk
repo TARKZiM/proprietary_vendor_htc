@@ -1120,6 +1120,53 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/htc/oce/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
+# WFD
+PRODUCT_COPY_FILES += \
+    vendor/htc/oce/proprietary/bin/wfdservice:system/bin/wfdservice \
+    vendor/htc/oce/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
+    vendor/htc/oce/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
+    vendor/htc/oce/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
+    vendor/htc/oce/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/htc/oce/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
+    vendor/htc/oce/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
+    vendor/htc/oce/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/htc/oce/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/htc/oce/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+    vendor/htc/oce/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
+    vendor/htc/oce/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
+    vendor/htc/oce/proprietary/lib/libaacwrapper.so:system/lib/libaacwrapper.so \
+    vendor/htc/oce/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
+    vendor/htc/oce/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
+    vendor/htc/oce/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
+    vendor/htc/oce/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
+    vendor/htc/oce/proprietary/lib/libwfdconfigutils.so:system/lib/libwfdconfigutils.so \
+    vendor/htc/oce/proprietary/lib/libwfdmminterface.so:system/lib/libwfdmminterface.so \
+    vendor/htc/oce/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
+    vendor/htc/oce/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
+    vendor/htc/oce/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
+    vendor/htc/oce/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
+    vendor/htc/oce/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
+    vendor/htc/oce/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
+    vendor/htc/oce/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
+    vendor/htc/oce/proprietary/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
+    vendor/htc/oce/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
+    vendor/htc/oce/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
+    vendor/htc/oce/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
+    vendor/htc/oce/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
+    vendor/htc/oce/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
+    vendor/htc/oce/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
+    vendor/htc/oce/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
+    vendor/htc/oce/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
+    vendor/htc/oce/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
+    vendor/htc/oce/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/htc/oce/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
+    vendor/htc/oce/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
+    vendor/htc/oce/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
+    vendor/htc/oce/proprietary/vendor/lib/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhaldsmanager.so \
+    vendor/htc/oce/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
+    vendor/htc/oce/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
+    vendor/htc/oce/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so
+
 PRODUCT_PACKAGES += \
     libantradio \
     libloc_api_v02 \
