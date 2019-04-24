@@ -228,6 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6-common/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/htc/t6-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/htc/t6-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/htc/t6-common/proprietary/vendor/lib/libfpsvc.so:system/vendor/lib/libfpsvc.so \
+    vendor/htc/t6-common/proprietary/lib/libfpsvc.so:system/lib/libfpsvc.so \
     vendor/htc/t6-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/htc/t6-common/proprietary/validity/ValidityPersistentData:system/validity/ValidityPersistentData
