@@ -225,6 +225,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/htc/t6-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/htc/t6-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/htc/t6-common/proprietary/vendor/lib/libskia.so:system/vendor/lib/libskia.so \
     vendor/htc/t6-common/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/htc/t6-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/htc/t6-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
