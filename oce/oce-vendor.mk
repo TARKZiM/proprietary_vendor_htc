@@ -1120,7 +1120,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/htc/oce/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
-# WFD
+# WFD from op3
 PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/htc/oce/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
@@ -1134,7 +1134,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/htc/oce/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/htc/oce/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
-    vendor/htc/oce/proprietary/lib/libaacwrapper.so:system/lib/libaacwrapper.so \
     vendor/htc/oce/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
     vendor/htc/oce/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
     vendor/htc/oce/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
@@ -1158,8 +1157,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
     vendor/htc/oce/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/htc/oce/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
-    vendor/htc/oce/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/htc/oce/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
     vendor/htc/oce/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
     vendor/htc/oce/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
     vendor/htc/oce/proprietary/vendor/lib/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhaldsmanager.so \
