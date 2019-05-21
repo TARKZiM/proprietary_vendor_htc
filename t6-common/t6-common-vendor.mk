@@ -186,6 +186,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6-common/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/htc/t6-common/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/htc/t6-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/htc/t6-common/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/htc/t6-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/htc/t6-common/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/htc/t6-common/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
