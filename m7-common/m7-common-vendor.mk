@@ -116,7 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.preset:system/etc/tfa/voip_l.preset \
     vendor/htc/m7-common/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/htc/m7-common/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
-    vendor/htc/m7-common/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/htc/m7-common/proprietary/lib/sensors.m7.so:system/lib/sensors.m7.so \
     vendor/htc/m7-common/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
     vendor/htc/m7-common/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
     vendor/htc/m7-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
