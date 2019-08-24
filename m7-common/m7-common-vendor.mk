@@ -114,9 +114,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.config:system/etc/tfa/voip_l.config \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.eq:system/etc/tfa/voip_l.eq \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.preset:system/etc/tfa/voip_l.preset \
-    vendor/htc/m7-common/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
-    vendor/htc/m7-common/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
-    vendor/htc/m7-common/proprietary/lib/sensors.m7.so:system/lib/sensors.m7.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/hw/camera.vendor.msm8960.so:system/vendor/lib/hw/camera.vendor.msm8960.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/hw/consumerir.default.so:system/vendor/lib/hw/consumerir.default.so \
+    vendor/htc/m7-common/proprietary/lib/sensors.m7.so:system/vendor/lib/sensors.m7.so \
     vendor/htc/m7-common/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
     vendor/htc/m7-common/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
     vendor/htc/m7-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
@@ -200,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-    vendor/htc/m7-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/htc/m7-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/htc/m7-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/htc/m7-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -210,7 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/htc/m7-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
@@ -218,11 +216,16 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/htc/m7-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/htc/m7-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/libskia.so:system/vendor/lib/libskia.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
-    vendor/htc/m7-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/htc/m7-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/htc/m7-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
