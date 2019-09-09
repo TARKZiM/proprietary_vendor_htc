@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/htc/t6-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/htc/t6-common/proprietary/bin/radish:system/bin/radish \
-    vendor/htc/t6-common/proprietary/bin/thermald:system/bin/thermald \
+    vendor/htc/t6-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/htc/t6-common/proprietary/vendor/bin/vcsFPService:system/vendor/bin/vcsFPService \
     vendor/htc/t6-common/proprietary/vendor/bin/vcsFirmwareVersion:system/vendor/bin/vcsFirmwareVersion \
     vendor/htc/t6-common/proprietary/vendor/bin/vcsSimpleCapture:system/vendor/bin/vcsSimpleCapture \
