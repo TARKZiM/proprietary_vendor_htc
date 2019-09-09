@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/htc/m7-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/htc/m7-common/proprietary/bin/radish:system/bin/radish \
-    vendor/htc/m7-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/htc/m7-common/proprietary/etc/agps_rm:system/etc/agps_rm \
     vendor/htc/m7-common/proprietary/etc/cir.img:system/etc/cir.img \
     vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
@@ -114,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.config:system/etc/tfa/voip_l.config \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.eq:system/etc/tfa/voip_l.eq \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.preset:system/etc/tfa/voip_l.preset \
+    vendor/htc/m7-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/htc/m7-common/proprietary/vendor/lib/hw/camera.vendor.msm8960.so:system/vendor/lib/hw/camera.vendor.msm8960.so \
     vendor/htc/m7-common/proprietary/vendor/lib/hw/consumerir.default.so:system/vendor/lib/hw/consumerir.default.so \
     vendor/htc/m7-common/proprietary/lib/sensors.m7.so:system/vendor/lib/sensors.m7.so \
