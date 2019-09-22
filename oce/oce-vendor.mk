@@ -470,7 +470,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
     vendor/htc/oce/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/htc/oce/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
-    vendor/htc/oce/proprietary/vendor/lib/hw/audio.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8996.so \
     vendor/htc/oce/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
     vendor/htc/oce/proprietary/vendor/lib/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.fpc.so \
     vendor/htc/oce/proprietary/vendor/lib/hw/fingerprint.idex.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.idex.so \
@@ -897,7 +896,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib64/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libQTapGLES.so \
     vendor/htc/oce/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/htc/oce/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
-    vendor/htc/oce/proprietary/vendor/lib64/hw/audio.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.msm8996.so \
     vendor/htc/oce/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/htc/oce/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
     vendor/htc/oce/proprietary/vendor/lib64/hw/fingerprint.idex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.idex.so \
