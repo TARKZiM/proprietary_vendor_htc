@@ -219,8 +219,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
     vendor/htc/oce/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/htc/oce/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
-    vendor/htc/oce/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
-    vendor/htc/oce/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
+    vendor/htc/oce/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
+    vendor/htc/oce/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/htc/oce/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
     vendor/htc/oce/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/htc/oce/proprietary/lib/libftm_lib_fpc.so:system/lib/libftm_lib_fpc.so \
