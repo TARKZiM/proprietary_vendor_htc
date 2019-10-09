@@ -209,11 +209,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/htc/oce/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/htc/oce/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/htc/oce/proprietary/product/etc/permissions/qti_telephony_common.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qti_telephony_common.xml \
     vendor/htc/oce/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/htc/oce/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/htc/oce/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/htc/oce/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/htc/oce/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/htc/oce/proprietary/product/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-common.jar \
     vendor/htc/oce/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/htc/oce/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
     vendor/htc/oce/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
