@@ -483,7 +483,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxEvrcDec.so \
     vendor/htc/oce/proprietary/vendor/lib/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Dec.so \
     vendor/htc/oce/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
-    vendor/htc/oce/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
+    vendor/htc/oce/proprietary/vendor/lib/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxG711Dec.so \
     vendor/htc/oce/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/htc/oce/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/htc/oce/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
@@ -839,7 +839,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
     vendor/htc/oce/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
     vendor/htc/oce/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
-    vendor/htc/oce/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/htc/oce/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
     vendor/htc/oce/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/htc/oce/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libadsp_fd_skel.so \
@@ -1141,7 +1140,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/htc/oce/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/htc/oce/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/htc/oce/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
+    vendor/htc/oce/proprietary/lib/extractors/libmmparserextractor.so:system/lib/extractors/libmmparserextractor.so \
     vendor/htc/oce/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/htc/oce/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
     vendor/htc/oce/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
