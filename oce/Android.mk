@@ -160,32 +160,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := gatekeeper.msm8996
-LOCAL_MODULE_OWNER := htc
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/hw/gatekeeper.msm8996.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/hw/gatekeeper.msm8996.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := hw
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := keystore.msm8996
-LOCAL_MODULE_OWNER := htc
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/hw/keystore.msm8996.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/hw/keystore.msm8996.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := hw
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libgpustats
 LOCAL_MODULE_OWNER := htc
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libgpustats.so
