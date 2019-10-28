@@ -15,6 +15,28 @@
 soong_namespace {
 }
 
+android_app_import {
+	name: "PowerOffAlarm",
+	owner: "htc",
+	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "TimeService",
+	owner: "htc",
+	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
 dex_import {
     name: "WfdCommon",
     owner: "htc",
