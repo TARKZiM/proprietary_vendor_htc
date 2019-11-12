@@ -97,9 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae/proprietary/etc/hldm.bin:system/etc/hldm.bin \
     vendor/htc/hiae/proprietary/etc/hltof.bin:system/etc/hltof.bin \
     vendor/htc/hiae/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
-    vendor/htc/hiae/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-    vendor/htc/hiae/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/htc/hiae/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/htc/hiae/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
     vendor/htc/hiae/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/htc/hiae/proprietary/vendor/etc/tfa/Rec_Video.drc:$(TARGET_COPY_OUT_VENDOR)/etc/tfa/Rec_Video.drc \
@@ -122,8 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae/proprietary/vendor/etc/tfa/voip.eq:$(TARGET_COPY_OUT_VENDOR)/etc/tfa/voip.eq \
     vendor/htc/hiae/proprietary/vendor/etc/tfa/voip.preset:$(TARGET_COPY_OUT_VENDOR)/etc/tfa/voip.preset \
     vendor/htc/hiae/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/htc/hiae/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/htc/hiae/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/htc/hiae/proprietary/vendor/lib/hw/camera.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8952.so \
     vendor/htc/hiae/proprietary/vendor/lib/hw/fingerprint.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.msm8952.so \
     vendor/htc/hiae/proprietary/vendor/lib/libBeautyChat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBeautyChat.so \
