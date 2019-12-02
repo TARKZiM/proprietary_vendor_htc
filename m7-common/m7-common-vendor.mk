@@ -177,6 +177,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/htc/m7-common/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/htc/m7-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/htc/m7-common/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/htc/m7-common/proprietary/lib/libmmcamera_aec.so:system/lib/libmmcamera_aec.so \
     vendor/htc/m7-common/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/htc/m7-common/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
