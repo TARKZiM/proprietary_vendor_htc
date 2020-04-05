@@ -221,6 +221,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/product/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-common.jar \
     vendor/htc/oce/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/htc/oce/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
+    vendor/htc/oce/proprietary/lib/libqvrservice.so:system/lib/libqvrservice.so \
     vendor/htc/oce/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/htc/oce/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
     vendor/htc/oce/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
