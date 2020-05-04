@@ -117,6 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/htc/m7-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/htc/m7-common/proprietary/vendor/etc/firmware/BCM4335B0_002.001.006.0296.0297.hcd:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/BCM4335B0_002.001.006.0296.0297.hcd \
+    vendor/htc/m7-common/proprietary/vendor/etc/firmware/bcm4335_prepatch.hcd:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/bcm4335_prepatch.hcd \
     vendor/htc/m7-common/proprietary/vendor/etc/firmware/fw_bcm4335_apsta_b0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcm4335_apsta_b0.bin \
     vendor/htc/m7-common/proprietary/vendor/etc/firmware/fw_bcm4335_b0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcm4335_b0.bin \
     vendor/htc/m7-common/proprietary/vendor/etc/firmware/fw_bcm4335_p2p_b0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcm4335_p2p_b0.bin \
