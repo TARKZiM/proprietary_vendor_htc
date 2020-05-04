@@ -33,9 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/m7-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/htc/m7-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_apsta_b0.bin:system/etc/firmware/fw_bcm4335_apsta_b0.bin \
-    vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_b0.bin:system/etc/firmware/fw_bcm4335_b0.bin \
-    vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_p2p_b0.bin:system/etc/firmware/fw_bcm4335_p2p_b0.bin \
     vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
     vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b01:system/etc/firmware/hcheck.b01 \
     vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b02:system/etc/firmware/hcheck.b02 \
@@ -119,6 +116,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/etc/tfa/voip_l.preset:system/etc/tfa/voip_l.preset \
     vendor/htc/m7-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/htc/m7-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/htc/m7-common/proprietary/vendor/etc/firmware/BCM4335B0_002.001.006.0296.0297.hcd:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/BCM4335B0_002.001.006.0296.0297.hcd \
+    vendor/htc/m7-common/proprietary/vendor/etc/firmware/fw_bcm4335_apsta_b0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcm4335_apsta_b0.bin \
+    vendor/htc/m7-common/proprietary/vendor/etc/firmware/fw_bcm4335_b0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcm4335_b0.bin \
+    vendor/htc/m7-common/proprietary/vendor/etc/firmware/fw_bcm4335_p2p_b0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcm4335_p2p_b0.bin \
     vendor/htc/m7-common/proprietary/vendor/lib/hw/camera.vendor.msm8960.so:system/vendor/lib/hw/camera.vendor.msm8960.so \
     vendor/htc/m7-common/proprietary/vendor/lib/hw/consumerir.default.so:system/vendor/lib/hw/consumerir.default.so \
     vendor/htc/m7-common/proprietary/lib/sensors.m7.so:system/vendor/lib/sensors.m7.so \
