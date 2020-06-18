@@ -19,3 +19,13 @@
 soong_namespace {
 }
 
+android_app_import {
+	name: "TimeService",
+	owner: "htc",
+	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
