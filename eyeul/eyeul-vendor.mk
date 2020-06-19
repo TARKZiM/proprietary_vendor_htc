@@ -502,9 +502,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/vendor/lib/libchromatix_vd6869_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vd6869_default_video.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libchromatix_vd6869_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vd6869_preview.so \
         vendor/htc/eyeul/proprietary/etc/firmware/alIAF_InData_4M2M:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alIAF_InData_4M2M \
-        vendor/htc/eyeul/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_1_1.fw \
-        vendor/htc/eyeul/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_1_6.fw \
-        vendor/htc/eyeul/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_2_0.fw \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
         vendor/htc/eyeul/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ILP0100_IPM_Code_out.bin \
         vendor/htc/eyeul/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ILP0100_IPM_Data_out.bin \
         vendor/htc/eyeul/proprietary/etc/firmware/lscbuffer_rev2.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/lscbuffer_rev2.bin \
@@ -519,16 +519,16 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
         vendor/htc/eyeul/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
-        vendor/htc/eyeul/proprietary/etc/firmware/cmnlib.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b00 \
-        vendor/htc/eyeul/proprietary/etc/firmware/cmnlib.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b01 \
-        vendor/htc/eyeul/proprietary/etc/firmware/cmnlib.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b02 \
-        vendor/htc/eyeul/proprietary/etc/firmware/cmnlib.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b03 \
-        vendor/htc/eyeul/proprietary/etc/firmware/cmnlib.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.mdt \
-        vendor/htc/eyeul/proprietary/etc/firmware/dxhdcp2.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b00 \
-        vendor/htc/eyeul/proprietary/etc/firmware/dxhdcp2.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b01 \
-        vendor/htc/eyeul/proprietary/etc/firmware/dxhdcp2.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b02 \
-        vendor/htc/eyeul/proprietary/etc/firmware/dxhdcp2.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b03 \
-        vendor/htc/eyeul/proprietary/etc/firmware/dxhdcp2.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.mdt \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.b00 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.b01 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.b02 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.b03 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.mdt \
+        vendor/htc/eyeul/proprietary/vendor/firmware/dxhdcp2.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b00 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/dxhdcp2.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b01 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/dxhdcp2.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b02 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/dxhdcp2.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b03 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/dxhdcp2.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.mdt \
         vendor/htc/eyeul/proprietary/vendor/lib/egl/eglsubAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglsubAndroid.so \
         vendor/htc/eyeul/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
         vendor/htc/eyeul/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
@@ -549,17 +549,17 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscale.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libuiblur.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuiblur.so \
-        vendor/htc/eyeul/proprietary/etc/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a330_pfp.fw \
-        vendor/htc/eyeul/proprietary/etc/firmware/a330_pm4.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a330_pm4.fw \
-        vendor/htc/eyeul/proprietary/etc/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/leia_pfp_470.fw \
-        vendor/htc/eyeul/proprietary/etc/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/leia_pm4_470.fw \
+        vendor/htc/eyeul/proprietary/vendor/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pfp.fw \
+        vendor/htc/eyeul/proprietary/vendor/firmware/a330_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pm4.fw \
+        vendor/htc/eyeul/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
+        vendor/htc/eyeul/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
         vendor/htc/eyeul/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
         vendor/htc/eyeul/proprietary/vendor/bin/hvdcp:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp \
-        vendor/htc/eyeul/proprietary/etc/firmware/hcheck.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/hcheck.b00 \
-        vendor/htc/eyeul/proprietary/etc/firmware/hcheck.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/hcheck.b01 \
-        vendor/htc/eyeul/proprietary/etc/firmware/hcheck.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/hcheck.b02 \
-        vendor/htc/eyeul/proprietary/etc/firmware/hcheck.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/hcheck.b03 \
-        vendor/htc/eyeul/proprietary/etc/firmware/hcheck.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/hcheck.mdt \
+        vendor/htc/eyeul/proprietary/vendor/firmware/hcheck.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/hcheck.b00 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/hcheck.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/hcheck.b01 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/hcheck.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/hcheck.b02 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/hcheck.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/hcheck.b03 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/hcheck.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/hcheck.mdt \
         vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b00 \
         vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b01 \
         vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b02 \
@@ -574,23 +574,23 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libSHIMDivxDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSHIMDivxDrm.so \
-        vendor/htc/eyeul/proprietary/etc/firmware/venus.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b00 \
-        vendor/htc/eyeul/proprietary/etc/firmware/venus.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b01 \
-        vendor/htc/eyeul/proprietary/etc/firmware/venus.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b02 \
-        vendor/htc/eyeul/proprietary/etc/firmware/venus.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b03 \
-        vendor/htc/eyeul/proprietary/etc/firmware/venus.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b04 \
-        vendor/htc/eyeul/proprietary/etc/firmware/venus.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mbn \
-        vendor/htc/eyeul/proprietary/etc/firmware/venus.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mdt \
+        vendor/htc/eyeul/proprietary/vendor/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b00 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/venus.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b01 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/venus.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b02 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/venus.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b03 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/venus.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b04 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/venus.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mbn \
+        vendor/htc/eyeul/proprietary/vendor/firmware/venus.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mdt \
         vendor/htc/eyeul/proprietary/vendor/bin/mpdecision:$(TARGET_COPY_OUT_VENDOR)/bin/mpdecision \
         vendor/htc/eyeul/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
         vendor/htc/eyeul/proprietary/vendor/lib/hw/sensors.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8974.so \
         vendor/htc/eyeul/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
         vendor/htc/eyeul/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-        vendor/htc/eyeul/proprietary/etc/firmware/widevine.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.b00 \
-        vendor/htc/eyeul/proprietary/etc/firmware/widevine.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.b01 \
-        vendor/htc/eyeul/proprietary/etc/firmware/widevine.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.b02 \
-        vendor/htc/eyeul/proprietary/etc/firmware/widevine.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.b03 \
-        vendor/htc/eyeul/proprietary/etc/firmware/widevine.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.mdt \
+        vendor/htc/eyeul/proprietary/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b00 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/widevine.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b03 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
         vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wcnss.b00 \
         vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wcnss.b01 \
         vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wcnss.b02 \
