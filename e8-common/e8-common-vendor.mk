@@ -20,7 +20,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/htc/e8-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
-    vendor/htc/e8-common/proprietary/vendor/bin/cir_fw_update:$(TARGET_COPY_OUT_VENDOR)/bin/cir_fw_update \
     vendor/htc/e8-common/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
     vendor/htc/e8-common/proprietary/vendor/bin/hvdcp:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp \
     vendor/htc/e8-common/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
@@ -39,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/e8-common/proprietary/etc/Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Headset_cal.acdb \
     vendor/htc/e8-common/proprietary/etc/RT5501:$(TARGET_COPY_OUT_SYSTEM)/etc/RT5501 \
     vendor/htc/e8-common/proprietary/etc/Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Speaker_cal.acdb \
-    vendor/htc/e8-common/proprietary/etc/cir.img:$(TARGET_COPY_OUT_SYSTEM)/etc/cir.img \
     vendor/htc/e8-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ILP0100_IPM_Code_out.bin \
     vendor/htc/e8-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/e8-common/proprietary/vendor/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pfp.fw \
@@ -99,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/e8-common/proprietary/etc/tfa/voip_l.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip_l.eq \
     vendor/htc/e8-common/proprietary/etc/tfa/voip_l.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip_l.preset \
     vendor/htc/e8-common/proprietary/vendor/lib/hw/camera.vendor.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8974.so \
-    vendor/htc/e8-common/proprietary/vendor/lib/hw/consumerir.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.msm8974.so \
     vendor/htc/e8-common/proprietary/vendor/lib/libBeautyChat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBeautyChat.so \
     vendor/htc/e8-common/proprietary/vendor/lib/libalDE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalDE.so \
     vendor/htc/e8-common/proprietary/vendor/lib/libalDE_REC.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalDE_REC.so \
@@ -115,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/e8-common/proprietary/vendor/lib/libdrmdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmdecrypt.so \
     vendor/htc/e8-common/proprietary/vendor/lib/libhtc_depthmap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhtc_depthmap.so \
     vendor/htc/e8-common/proprietary/vendor/lib/libhtccamera_yushaniiproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhtccamera_yushaniiproc.so \
-    vendor/htc/e8-common/proprietary/lib/libhtcirinterface_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhtcirinterface_jni.so \
     vendor/htc/e8-common/proprietary/vendor/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_v02.so \
     vendor/htc/e8-common/proprietary/vendor/lib/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_ds_api.so \
     vendor/htc/e8-common/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
@@ -318,6 +314,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/e8-common/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
-    CIRModule \
-    TimeService \
-    htcirlibs
+    TimeService

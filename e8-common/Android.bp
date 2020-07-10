@@ -20,16 +20,6 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "CIRModule",
-	owner: "htc",
-	apk: "proprietary/app/CIRModule/CIRModule.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "TimeService",
 	owner: "htc",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
@@ -39,10 +29,3 @@ android_app_import {
 	},
 	soc_specific: true,
 }
-
-dex_import {
-	name: "htcirlibs",
-	owner: "htc",
-	jars: ["proprietary/framework/htcirlibs.jar"],
-}
-
