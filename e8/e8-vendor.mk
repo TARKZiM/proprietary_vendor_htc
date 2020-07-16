@@ -26,6 +26,3 @@ PRODUCT_COPY_FILES += \
     vendor/htc/e8/proprietary/vendor/lib/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-qmi-1.so \
     vendor/htc/e8/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so \
     vendor/htc/e8/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so \
-
-PRODUCT_PACKAGES += \
-    nfc_nci.msm8974
