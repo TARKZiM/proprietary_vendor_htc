@@ -1220,6 +1220,9 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     qcrilmsgtunnel \
     ims \
+    HotwordEnrollmentOKGoogleWCD9335 \
+    HotwordEnrollmentTGoogleWCD9335 \
+    HotwordEnrollmentXGoogleWCD9335 \
     SmartcardService \
     WfdService \
     WfdCommon \
