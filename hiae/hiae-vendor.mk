@@ -100,6 +100,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/htc/hiae/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/htc/hiae/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/htc/hiae/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
+    vendor/htc/hiae/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/htc/hiae/proprietary/vendor/etc/tfa/Rec_Video.drc:$(TARGET_COPY_OUT_VENDOR)/etc/tfa/Rec_Video.drc \
     vendor/htc/hiae/proprietary/vendor/etc/tfa/Rec_Video.eq:$(TARGET_COPY_OUT_VENDOR)/etc/tfa/Rec_Video.eq \
     vendor/htc/hiae/proprietary/vendor/etc/tfa/Rec_Video.preset:$(TARGET_COPY_OUT_VENDOR)/etc/tfa/Rec_Video.preset \
@@ -184,7 +186,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/htc/hiae/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/htc/hiae/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-    vendor/htc/hiae/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
     vendor/htc/hiae/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/htc/hiae/proprietary/vendor/lib/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a4xx.so \
     vendor/htc/hiae/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
