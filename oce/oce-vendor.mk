@@ -1039,18 +1039,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib64/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsocket.so \
     vendor/htc/oce/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
     vendor/htc/oce/proprietary/vendor/lib64/libqmiservices_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices_ext.so \
-    vendor/htc/oce/proprietary/vendor/blobs/dugl/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/blobs/dugl/libril-qc-ltedirectdisc.so \
-    vendor/htc/oce/proprietary/vendor/blobs/dugl/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/blobs/dugl/libril-qc-qmi-1.so \
-    vendor/htc/oce/proprietary/vendor/blobs/dugl/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/blobs/dugl/libril-qc-radioconfig.so \
-    vendor/htc/oce/proprietary/vendor/blobs/dugl/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/blobs/dugl/libril-qcril-hook-oem.so \
-    vendor/htc/oce/proprietary/vendor/blobs/uhl/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/blobs/uhl/libril-qc-ltedirectdisc.so \
-    vendor/htc/oce/proprietary/vendor/blobs/uhl/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/blobs/uhl/libril-qc-qmi-1.so \
-    vendor/htc/oce/proprietary/vendor/blobs/uhl/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/blobs/uhl/libril-qc-radioconfig.so \
-    vendor/htc/oce/proprietary/vendor/blobs/uhl/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/blobs/uhl/libril-qcril-hook-oem.so \
-    vendor/htc/oce/proprietary/vendor/blobs/dtwl/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/blobs/dtwl/libril-qc-ltedirectdisc.so \
-    vendor/htc/oce/proprietary/vendor/blobs/dtwl/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/blobs/dtwl/libril-qc-qmi-1.so \
-    vendor/htc/oce/proprietary/vendor/blobs/dtwl/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/blobs/dtwl/libril-qc-radioconfig.so \
-    vendor/htc/oce/proprietary/vendor/blobs/dtwl/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/blobs/dtwl/libril-qcril-hook-oem.so \
+    vendor/htc/oce/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so \
+    vendor/htc/oce/proprietary/vendor/lib64/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1.so \
+    vendor/htc/oce/proprietary/vendor/lib64/libril_dtwl-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril_dtwl-qc-qmi-1.so \
+    vendor/htc/oce/proprietary/vendor/lib64/libril_uhl-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril_uhl-qc-qmi-1.so \
+    vendor/htc/oce/proprietary/vendor/lib64/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-radioconfig.so \
+    vendor/htc/oce/proprietary/vendor/lib64/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qcril-hook-oem.so \
     vendor/htc/oce/proprietary/vendor/lib64/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmiservices.so \
     vendor/htc/oce/proprietary/vendor/lib64/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcc.so \
     vendor/htc/oce/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
