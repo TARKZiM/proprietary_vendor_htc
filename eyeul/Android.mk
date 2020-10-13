@@ -23,6 +23,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := nfc_nci.msm8974
 LOCAL_MODULE_OWNER := htc
 LOCAL_SRC_FILES := proprietary/vendor/lib/hw/nfc_nci.msm8974.so
+LOCAL_CHECK_ELF_FILES := false
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
