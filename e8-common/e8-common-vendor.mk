@@ -152,11 +152,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/e8-common/proprietary/vendor/lib/libtuning_awb_ov13850_800M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtuning_awb_ov13850_800M.so \
     vendor/htc/e8-common/proprietary/vendor/lib/libtuning_awb_s5k5e.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtuning_awb_s5k5e.so \
     vendor/htc/e8-common/proprietary/vendor/lib/libtuning_awb_s5k5e_fov65.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtuning_awb_s5k5e_fov65.so \
-    vendor/htc/e8-common/proprietary/vendor/firmware/keymaster/keymaster.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b00 \
-    vendor/htc/e8-common/proprietary/vendor/firmware/keymaster/keymaster.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b01 \
-    vendor/htc/e8-common/proprietary/vendor/firmware/keymaster/keymaster.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b02 \
-    vendor/htc/e8-common/proprietary/vendor/firmware/keymaster/keymaster.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b03 \
-    vendor/htc/e8-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.mdt \
+    vendor/htc/e8-common/proprietary/vendor/firmware/keymaster/keymaster.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster.b00 \
+    vendor/htc/e8-common/proprietary/vendor/firmware/keymaster/keymaster.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster.b01 \
+    vendor/htc/e8-common/proprietary/vendor/firmware/keymaster/keymaster.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster.b02 \
+    vendor/htc/e8-common/proprietary/vendor/firmware/keymaster/keymaster.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster.b03 \
+    vendor/htc/e8-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster.mdt \
     vendor/htc/e8-common/proprietary/vendor/firmware/wcnss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wcnss.b00 \
     vendor/htc/e8-common/proprietary/vendor/firmware/wcnss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wcnss.b01 \
     vendor/htc/e8-common/proprietary/vendor/firmware/wcnss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wcnss.b02 \
