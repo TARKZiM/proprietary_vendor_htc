@@ -560,11 +560,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/vendor/firmware/hcheck.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/hcheck.b02 \
         vendor/htc/eyeul/proprietary/vendor/firmware/hcheck.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/hcheck.b03 \
         vendor/htc/eyeul/proprietary/vendor/firmware/hcheck.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/hcheck.mdt \
-        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b00 \
-        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b01 \
-        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b02 \
-        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b03 \
-        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.mdt \
+        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster.b00 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster.b01 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster.b02 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster.b03 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster.mdt \
         vendor/htc/eyeul/proprietary/vendor/lib/libDivxDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDivxDrm.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libI420colorconvert.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
