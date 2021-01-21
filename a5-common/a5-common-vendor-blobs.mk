@@ -169,14 +169,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5-common/proprietary/vendor/lib/libC2D2.so:/system/vendor/lib/libC2D2.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libCB.so:/system/vendor/lib/libCB.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
-        vendor/htc/a5-common/proprietary/vendor/lib/libRSDriver_adreno.so:/system/vendor/lib/libRSDriver_adreno.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libadreno_utils.so:/system/vendor/lib/libadreno_utils.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libbccQTI.so:/system/vendor/lib/libbccQTI.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libc2d30-a3xx.so:/system/vendor/lib/libc2d30-a3xx.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libllvm-qcom.so:/system/vendor/lib/libllvm-qcom.so \
-        vendor/htc/a5-common/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
-        vendor/htc/a5-common/proprietary/vendor/lib/librs_adreno_sha1.so:/system/vendor/lib/librs_adreno_sha1.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so \
         vendor/htc/a5-common/proprietary/etc/firmware/venus.b00:/system/etc/firmware/venus.b00 \
         vendor/htc/a5-common/proprietary/etc/firmware/venus.b01:/system/etc/firmware/venus.b01 \
