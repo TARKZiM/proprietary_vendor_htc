@@ -1203,7 +1203,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleWCD9335 \
     HotwordEnrollmentTGoogleWCD9335 \
     HotwordEnrollmentXGoogleWCD9335 \
-    SmartcardService \
     WfdService \
     WfdCommon \
     vendor.qti.gnss@3.0-service
