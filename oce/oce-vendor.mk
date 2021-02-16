@@ -1206,5 +1206,4 @@ PRODUCT_PACKAGES += \
     SmartcardService \
     WfdService \
     WfdCommon \
-    EasyAccessService \
     vendor.qti.gnss@3.0-service
