@@ -15,24 +15,6 @@
 soong_namespace {
 }
 
-cc_prebuilt_library_shared {
-	name: "libbtconfigstore",
-	owner: "htc",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/lib/libbtconfigstore.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/lib64/libbtconfigstore.so"],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-}
-
 android_app_import {
 	name: "PowerOffAlarm",
 	owner: "htc",
