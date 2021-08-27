@@ -194,7 +194,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5-common/proprietary/vendor/bin/thermal-engine:/system/vendor/bin/thermal-engine \
         vendor/htc/a5-common/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
         vendor/htc/a5-common/proprietary/bin/akmd:/system/bin/akmd \
-        vendor/htc/a5-common/proprietary/lib/hw/sensors.msm8226.so:/system/lib/hw/sensors.msm8226.so \
+        vendor/htc/a5-common/proprietary/vendor/lib/hw/sensors.msm8226.so:/system/vendor/lib/hw/sensors.msm8226.so \
         vendor/htc/a5-common/proprietary/bin/time_daemon:/system/bin/time_daemon \
         vendor/htc/a5-common/proprietary/bin/qseecomd:/system/bin/qseecomd \
         vendor/htc/a5-common/proprietary/etc/firmware/cmnlib.b00:/system/etc/firmware/cmnlib.b00 \
