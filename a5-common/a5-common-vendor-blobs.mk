@@ -142,17 +142,14 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5-common/proprietary/vendor/lib/liboemcamera.so:/system/vendor/lib/liboemcamera.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
-        vendor/htc/a5-common/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
-        vendor/htc/a5-common/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
         vendor/htc/a5-common/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
-        vendor/htc/a5-common/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
         vendor/htc/a5-common/proprietary/lib/libloc_ds_api.so:/system/lib/libloc_ds_api.so \
-        vendor/htc/a5-common/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
         vendor/htc/a5-common/proprietary/vendor/lib/hw/flp.default.so:/system/vendor/lib/hw/flp.default.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libflp.so:/system/vendor/lib/libflp.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
         vendor/htc/a5-common/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
+        vendor/htc/a5-common/proprietary/vendor/lib/libscale.so:/system/vendor/lib/libscale.so \
         vendor/htc/a5-common/proprietary/etc/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
         vendor/htc/a5-common/proprietary/etc/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
         vendor/htc/a5-common/proprietary/etc/firmware/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
@@ -172,6 +169,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5-common/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libRSDriver_adreno.so:/system/vendor/lib/libRSDriver_adreno.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libadreno_utils.so:/system/vendor/lib/libadreno_utils.so \
+        vendor/htc/a5-common/proprietary/vendor/lib/libbccQTI.so:/system/vendor/lib/libbccQTI.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libc2d30-a3xx.so:/system/vendor/lib/libc2d30-a3xx.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libllvm-qcom.so:/system/vendor/lib/libllvm-qcom.so \
