@@ -188,8 +188,10 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5-common/proprietary/vendor/lib/libI420colorconvert.so:/system/vendor/lib/libI420colorconvert.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libmm-color-convertor.so:/system/vendor/lib/libmm-color-convertor.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libOmxAacDec.so:/system/vendor/lib/libOmxAacDec.so \
+        vendor/htc/a5-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libOmxEvrcDec.so:/system/vendor/lib/libOmxEvrcDec.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:/system/vendor/lib/libOmxQcelp13Dec.so \
+        vendor/htc/a5-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libqti-perfd-client.so:/system/vendor/lib/libqti-perfd-client.so \
         vendor/htc/a5-common/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/a5-common/proprietary/vendor/bin/thermal-engine:/system/vendor/bin/thermal-engine \
