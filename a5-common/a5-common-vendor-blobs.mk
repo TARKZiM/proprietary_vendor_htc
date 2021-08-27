@@ -17,6 +17,8 @@
 PRODUCT_COPY_FILES += \
         vendor/htc/a5-common/proprietary/bin/adsprpcd:/system/bin/adsprpcd \
         vendor/htc/a5-common/proprietary/vendor/lib/libadsprpc.so:/system/vendor/lib/libadsprpc.so \
+        vendor/htc/a5-common/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+        vendor/htc/a5-common/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
         vendor/htc/a5-common/proprietary/etc/Bluetooth_cal.acdb:/system/etc/Bluetooth_cal.acdb \
