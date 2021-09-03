@@ -59,7 +59,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:/system/vendor/lib/soundfx/libqcbassboost.so \
         vendor/htc/a5-common/proprietary/vendor/lib/soundfx/libqcreverb.so:/system/vendor/lib/soundfx/libqcreverb.so \
         vendor/htc/a5-common/proprietary/vendor/lib/soundfx/libqcvirt.so:/system/vendor/lib/soundfx/libqcvirt.so \
-        vendor/htc/a5-common/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
+        vendor/htc/a5-common/proprietary/bin/hci_qcomm_init:/system/vendor/bin/hci_qcomm_init \
         vendor/htc/a5-common/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/a5-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:/system/etc/firmware/ILP0100_IPM_Code_out.bin \
         vendor/htc/a5-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:/system/etc/firmware/ILP0100_IPM_Data_out.bin \
