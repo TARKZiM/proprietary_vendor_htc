@@ -1070,6 +1070,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib64/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_detected_face_hal.so \
     vendor/htc/oce/proprietary/vendor/lib64/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_face_beautify_hal.so \
     vendor/htc/oce/proprietary/vendor/lib64/libuiblur.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuiblur.so \
+    vendor/htc/oce/proprietary/vendor/lib64/libui-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libui-v27.so \
     vendor/htc/oce/proprietary/vendor/lib64/libvoice-svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvoice-svc.so \
     vendor/htc/oce/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
     vendor/htc/oce/proprietary/vendor/lib64/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwqe.so \
