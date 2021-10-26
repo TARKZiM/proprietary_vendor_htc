@@ -131,6 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/htc/hiae/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
     vendor/htc/hiae/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
+    vendor/htc/hiae/proprietary/lib64/libpowermanager-v29.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpowermanager-v29.so \
     vendor/htc/hiae/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/htc/hiae/proprietary/vendor/lib64/hw/fingerprint.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8952.so \
     vendor/htc/hiae/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
