@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/htc/oce/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/htc/oce/proprietary/bin/htcnetd:system/bin/htcnetd \
-    vendor/htc/oce/proprietary/bin/qvrservice:system/bin/qvrservice \
     vendor/htc/oce/proprietary/bin/htcnetdumplog:system/bin/htcnetdumplog \
     vendor/htc/oce/proprietary/bin/fp_img_encrypt:system/bin/fp_img_encrypt \
     vendor/htc/oce/proprietary/bin/fp_img_utf_preprocess:system/bin/fp_img_utf_preprocess \
@@ -221,7 +220,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/system_ext/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qti-telephony-common.jar \
     vendor/htc/oce/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/htc/oce/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
-    vendor/htc/oce/proprietary/lib/libqvrservice.so:system/lib/libqvrservice.so \
     vendor/htc/oce/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/htc/oce/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/htc/oce/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
