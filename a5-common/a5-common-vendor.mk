@@ -16,7 +16,6 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    libTimeService \
     libtime_genoff
 
 PRODUCT_PACKAGES += \
