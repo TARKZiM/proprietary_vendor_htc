@@ -1180,7 +1180,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02 \
     libgpustats \
     libthermalclient \
     TimeService \
@@ -1195,5 +1194,4 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentTGoogleWCD9335 \
     HotwordEnrollmentXGoogleWCD9335 \
     WfdService \
-    WfdCommon \
-    vendor.qti.gnss@3.0-service
+    WfdCommon
