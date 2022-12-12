@@ -491,5 +491,4 @@ PRODUCT_PACKAGES += \
     libTimeService \
     libmm-disp-apis \
     libtime_genoff \
-    TimeService \
-    com.qualcomm.location
+    TimeService
