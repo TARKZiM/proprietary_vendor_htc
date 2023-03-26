@@ -235,4 +235,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libwvdrm_L3.so:/system/vendor/lib/libwvdrm_L3.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-        vendor/htc/a5-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
+        vendor/htc/a5-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so
+
+ifeq ($(BOARD_NFC_CHIPSET),pn547)
+PRODUCT_PACKAGES += \
+    nfc_nci.msm8226
+endif

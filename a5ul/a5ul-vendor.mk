@@ -16,3 +16,7 @@
 
 # Pick up overlay for features that depend on non-open-source files
 $(call inherit-product, vendor/htc/a5ul/a5ul-vendor-blobs.mk)
+
+
+PRODUCT_PACKAGES += \
+    nfc_nci.msm8226

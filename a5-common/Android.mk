@@ -29,7 +29,6 @@ LOCAL_PROPRIETARY_MODULE := true
 LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
 
-ifeq ($(strip $(BOARD_NFC_CHIPSET)),pn547)
 include $(CLEAR_VARS)
 LOCAL_MODULE := nfc_nci.msm8226
 LOCAL_MODULE_OWNER := htc
@@ -42,8 +41,6 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
-
-endif
 
 endif
 

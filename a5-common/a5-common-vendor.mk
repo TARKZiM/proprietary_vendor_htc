@@ -18,9 +18,4 @@
 PRODUCT_PACKAGES += \
     libtime_genoff
 
-ifeq ($(strip $(BOARD_NFC_CHIPSET)),pn547)
-PRODUCT_PACKAGES += \
-    nfc_nci.msm8226
-endif
-
 $(call inherit-product, vendor/htc/a5-common/a5-common-vendor-blobs.mk)
