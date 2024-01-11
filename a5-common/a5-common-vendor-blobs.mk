@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5-common/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
         vendor/htc/a5-common/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
+        vendor/htc/a5-common/proprietary/vendor/lib/libprotobuf-cpp-lite-v28.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-v28.so \
         vendor/htc/a5-common/proprietary/etc/Bluetooth_cal.acdb:/system/etc/Bluetooth_cal.acdb \
         vendor/htc/a5-common/proprietary/etc/General_cal.acdb:/system/etc/General_cal.acdb \
         vendor/htc/a5-common/proprietary/etc/Global_cal.acdb:/system/etc/Global_cal.acdb \

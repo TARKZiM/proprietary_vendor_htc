@@ -86,6 +86,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/vendor/lib/libmmcamera_rubik.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_rubik.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libposteffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libposteffect.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libprotobuf-cpp-lite-v28.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-v28.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libtuning_aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtuning_aec.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libtuning_aec_ar1820_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtuning_aec_ar1820_video.so \

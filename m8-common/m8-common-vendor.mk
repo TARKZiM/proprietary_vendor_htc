@@ -125,6 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_rubik.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_rubik.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libposteffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libposteffect.so \
+    vendor/htc/m8-common/proprietary/vendor/lib/libprotobuf-cpp-lite-v28.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-v28.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libtuning_aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtuning_aec.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libtuning_aec_ov2722_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtuning_aec_ov2722_hdr.so \
