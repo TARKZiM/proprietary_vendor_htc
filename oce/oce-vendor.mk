@@ -1191,7 +1191,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     QtiTelephonyService \
     CneApp \
-    IWlanService \
     dpmserviceapp \
     PowerOffAlarm \
     qcrilmsgtunnel \
